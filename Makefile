@@ -1,6 +1,6 @@
 # ex: set tabstop=4 noexpandtab: 
 VERSION = $(shell cat VERSION)
-NAME=meta-pc
+NAME=meta-ivi
 TAGVER = $(shell cat VERSION | sed -e "s/\([0-9\.]*\).*/\1/")
 DESTDIR=
 ARCH=i586
@@ -14,19 +14,19 @@ endif
 all:
 
 install:
-	install -d ${DESTDIR}/usr/share/package-groups/pc
-	install -d ${DESTDIR}/usr/share/image-configurations/pc/configs
-	install -d ${DESTDIR}/usr/share/image-configurations/pc/scripts
-	install -d ${DESTDIR}/usr/share/image-configurations/pc/partitions
-	install -m 644 patterns/*.yaml ${DESTDIR}/usr/share/package-groups/pc
-	install -m 644 pc.yaml ${DESTDIR}/usr/share/image-configurations/pc
-	install -m 644 pc-repos.yaml ${DESTDIR}/usr/share/image-configurations/pc
-	install -m 644 ks/*.yaml ${DESTDIR}/usr/share/image-configurations/pc/configs
-	install -D partitions/* ${DESTDIR}/usr/share/image-configurations/pc/partitions
-	install -D scripts/* ${DESTDIR}/usr/share/image-configurations/pc/scripts
+	install -d ${DESTDIR}/usr/share/package-groups/ivi
+	install -d ${DESTDIR}/usr/share/image-configurations/ivi/configs
+	install -d ${DESTDIR}/usr/share/image-configurations/ivi/scripts
+	install -d ${DESTDIR}/usr/share/image-configurations/ivi/partitions
+	install -m 644 patterns/*.yaml ${DESTDIR}/usr/share/package-groups/ivi
+	install -m 644 ivi.yaml ${DESTDIR}/usr/share/image-configurations/ivi
+	install -m 644 ivi-repos.yaml ${DESTDIR}/usr/share/image-configurations/ivi
+	install -m 644 ks/*.yaml ${DESTDIR}/usr/share/image-configurations/ivi/configs
+	install -D partitions/* ${DESTDIR}/usr/share/image-configurations/ivi/partitions
+	install -D scripts/* ${DESTDIR}/usr/share/image-configurations/ivi/scripts
 
 test:
-	kickstarter -c pc.yaml -r pc-repos.yaml  -e ks/
+	kickstarter -c ivi.yaml -r ivi-repos.yaml  -e ks/
 tag:
 	git tag -a $(VERSION) -m "$(VERSION)"
 	git push --tags
