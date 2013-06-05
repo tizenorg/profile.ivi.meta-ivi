@@ -2,11 +2,7 @@ Name: IVI Wayland i586
 Schedule: "*"
 Active: True
 Platform: IVI
-<<<<<<< HEAD:ks/ivi-wayland-i586.yaml
 FileName: ivi-wayland-i586
-=======
-FileName: wayland-i586
->>>>>>> 758020ea80115d253127ba073dd7ea30c1ab6cd4:ks/wayland-i586.yaml
 Kernel: kernel-adaptation-pc
 Architecture: ia32
 Mic2Options: -f raw --copy-kernel --compress-disk-image=bz2 --generate-bmap
