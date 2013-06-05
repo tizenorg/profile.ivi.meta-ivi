@@ -10,8 +10,6 @@ Default:
     DefaultUserPass: tizen
     BootloaderOptions: '--menus="install:Wipe and Install:systemd.unit=pc-installer.service:test"'
 
-
-
 IVI:
     Bootloader: True
     BootloaderAppend: "vga=current quiet splash"
@@ -25,8 +23,4 @@ IVI:
     Groups:
         - Base System
     Repos:
-<<<<<<< HEAD:ivi.yaml
-        - tizen
-=======
->>>>>>> 758020ea80115d253127ba073dd7ea30c1ab6cd4:base.yaml
         - ivi
