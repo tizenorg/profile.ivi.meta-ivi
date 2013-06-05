@@ -1,6 +1,6 @@
 # ex: set tabstop=4 noexpandtab: 
 VERSION = $(shell cat VERSION)
-NAME=meta-base
+NAME=meta-pc
 TAGVER = $(shell cat VERSION | sed -e "s/\([0-9\.]*\).*/\1/")
 DESTDIR=
 ARCH=i586
@@ -14,20 +14,19 @@ endif
 all:
 
 install:
-	install -d ${DESTDIR}/usr/share/image-configurations/base/configs
-	install -d ${DESTDIR}/usr/share/image-configurations/base/custom
-	install -d ${DESTDIR}/usr/share/image-configurations/base/scripts
-	install -d ${DESTDIR}/usr/share/image-configurations/base/partitions
-	install -m 644 base.yaml ${DESTDIR}/usr/share/image-configurations/base
-	install -m 644 base-repos.yaml ${DESTDIR}/usr/share/image-configurations/base
-	install -m 644 ks/*.yaml ${DESTDIR}/usr/share/image-configurations/base/configs
-	install -D partitions/* ${DESTDIR}/usr/share/image-configurations/base/partitions
-	install -D scripts/* ${DESTDIR}/usr/share/image-configurations/base/scripts
+	install -d ${DESTDIR}/usr/share/package-groups/pc
+	install -d ${DESTDIR}/usr/share/image-configurations/pc/configs
+	install -d ${DESTDIR}/usr/share/image-configurations/pc/scripts
+	install -d ${DESTDIR}/usr/share/image-configurations/pc/partitions
+	install -m 644 patterns/*.yaml ${DESTDIR}/usr/share/package-groups/pc
+	install -m 644 pc.yaml ${DESTDIR}/usr/share/image-configurations/pc
+	install -m 644 pc-repos.yaml ${DESTDIR}/usr/share/image-configurations/pc
+	install -m 644 ks/*.yaml ${DESTDIR}/usr/share/image-configurations/pc/configs
+	install -D partitions/* ${DESTDIR}/usr/share/image-configurations/pc/partitions
+	install -D scripts/* ${DESTDIR}/usr/share/image-configurations/pc/scripts
 
 test:
-	merge-patterns -o output/ -p patterns -s
-	kickstarter -c base.yaml -e ks -r base-repos.yaml
-
+	kickstarter -c pc.yaml -r pc-repos.yaml  -e ks/
 tag:
 	git tag -a $(VERSION) -m "$(VERSION)"
 	git push --tags

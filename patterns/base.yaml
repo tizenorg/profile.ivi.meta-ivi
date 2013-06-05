@@ -1,0 +1,32 @@
+Description: Base System
+Name: base
+Packages:
+- e2fsprogs
+- util-linux
+- kmod-compat
+- kmod
+- tzdata
+- pwdutils
+- pam
+- setup
+- filesystem
+- systemd
+- bash
+- coreutils
+- rpm
+- rpm-security-plugin
+- curl
+- tizen-release
+- procps
+- psmisc
+- net-tools
+- iputils
+- iproute2
+- kbd
+- glibc-locale
+- pciutils
+- connman
+- ca-certificates-mozilla
+- corewatcher
+- snapper-zypp-plugin
+Summary: Base System

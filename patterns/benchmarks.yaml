@@ -1,0 +1,23 @@
+Description: Benchmarks
+Name: benchmarks
+Packages:
+- blas-devel
+- lapack-devel
+- bzip2-devel
+- zlib-devel
+- glibc-devel
+- libtool
+- gcc-fortran
+- cmake
+- tcl
+- popt-devel
+- yasm
+- phoronix-test-suite
+- fftw3-devel
+- lapack-devel
+- libSDL-devel
+- freeglut-devel
+- pcre-devel
+- zip
+- unzip
+Summary: Benchmarks
