@@ -1,0 +1,22 @@
+Description: Base Desktop
+Name: base-desktop
+Packages:
+- xhost
+- cantarell-fonts
+- dejavu-fonts
+- google-droid-fonts
+- xf86-video-fbdev
+- xf86-input-evdev 
+- xorg-launch-helper
+- update-desktop-files
+- desktop-file-utils
+- dbus-x11
+- xmodmap
+- setxkbmap
+- wpa_supplicant
+- rfkill
+- pulseaudio
+- libva
+- libva-intel-driver
+- gstreamer-vaapi
+Summary: Base Desktop

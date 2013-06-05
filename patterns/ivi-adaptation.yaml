@@ -1,0 +1,12 @@
+Description: IVI Adaptation
+Name: ivi-adaptation
+Packages:
+ - dracut
+ - plymouth
+ - linux-firmware
+ - kernel-adaptation-pc
+ - xf86-input-synaptics
+ - xf86-video-intel
+ - xf86-input-keyboard
+ - pc-installer
+Summary: IVI Adaptation

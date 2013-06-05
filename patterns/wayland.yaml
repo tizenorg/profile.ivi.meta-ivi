@@ -1,0 +1,10 @@
+Description: Wayland
+Name: wayland
+Packages:
+ - cantarell-fonts
+ - dejavu-fonts
+ - weston
+ - xkeyboard-config
+ - tizen-branding-default
+ - user-session-units
+Summary: Wayland

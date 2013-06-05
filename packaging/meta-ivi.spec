@@ -1,6 +1,6 @@
-Summary:	Tizen IVI Package Groups and Image Configurations
+Summary:	IVI Meta Data
 Name:		meta-ivi
-Version:	002
+Version:	001
 Release:	1
 License:	GPL-2.0
 Group:		System/Base
@@ -8,20 +8,22 @@ URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
 
 %description
-Tizen IVI Package Groups and Image Configurations
+IVI Meta Data.
+Includes patterns and image configurations for IVI images.
 
 %prep
 %setup -q
 
 %build
-make 
+make
 
 %install
 %make_install
 
 
 %files
-/usr/share/image-configurations/base/*.yaml
-/usr/share/image-configurations/base/configs/*.yaml
-/usr/share/image-configurations/base/scripts
-/usr/share/image-configurations/base/partitions
+%{_datadir}/package-groups/ivi/*.yaml
+%{_datadir}/image-configurations/ivi/*.yaml
+%{_datadir}/image-configurations/ivi/configs/*.yaml
+%{_datadir}/image-configurations/ivi/partitions/*
+%{_datadir}/image-configurations/ivi/scripts/*

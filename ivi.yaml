@@ -12,7 +12,7 @@ Default:
 
 
 
-BASE:
+IVI:
     Bootloader: True
     BootloaderAppend: "vga=current quiet splash"
     BootloaderTimeout: 1
@@ -21,8 +21,9 @@ BASE:
     Architecture: x86_64
     Desktop: None
     Mic2Options: -f liveusb --copy-kernel --runtime=native
-    Part: base
+    Part: ivi
     Groups:
         - Base System
     Repos:
-        - base
+        - tizen
+        - ivi

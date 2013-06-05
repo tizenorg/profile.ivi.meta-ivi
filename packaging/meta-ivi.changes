@@ -1,2 +1,5 @@
+* Wed Jun  5 20:44:55 UTC 2013 - tracy.graydon@intel.com
+- Fix this up to be in correct format, with ks and patterns 
+
 * Tue Jun  4 00:19:54 UTC 2013 - tracy.graydon@intel.com
 - Set up package-groups and image-configs for IVI
