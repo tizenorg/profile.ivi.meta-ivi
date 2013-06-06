@@ -4,7 +4,7 @@ Packages:
  - dracut
  - plymouth
  - linux-firmware
- - kernel-adaptation-pc
+ - kernel-ix86-ivi
  - xf86-input-synaptics
  - xf86-video-intel
  - xf86-input-keyboard
