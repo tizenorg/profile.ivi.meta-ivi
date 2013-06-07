@@ -3,7 +3,7 @@ Default:
     Active: True
     Language: en_US.UTF-8
     Keyboard: us
-    SaveRepos:  True
+    SaveRepos:  False
     Timezone: America/Los_Angeles
     RootPass: tizen
     DefaultUser: tizen
@@ -14,9 +14,9 @@ IVI:
     Bootloader: True
     BootloaderAppend: "vga=current quiet splash"
     BootloaderTimeout: 1
-    SaveRepos: True
+    SaveRepos: False
     StartX: False
-    Architecture: x86_64
+    Architecture: ia32
     Desktop: None
     Mic2Options: -f liveusb --copy-kernel --runtime=native
     Part: ivi
