@@ -2,6 +2,7 @@ Description: Base System
 Name: base
 Packages:
 - e2fsprogs
+- ivi-repos
 - util-linux
 - kmod-compat
 - kmod
@@ -28,5 +29,6 @@ Packages:
 - connman
 - ca-certificates-mozilla
 - corewatcher
+- csr-framework
 - snapper-zypp-plugin
 Summary: Base System
