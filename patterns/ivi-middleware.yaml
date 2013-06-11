@@ -20,6 +20,7 @@ Packages:
 - kmod-compat
 - net-tools
 - obexd
+- ofono
 - pam
 - pciutils
 - procps

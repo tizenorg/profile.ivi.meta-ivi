@@ -1,3 +1,6 @@
+* Tue Jun 11 20:32:30 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1029: add ofono 
+
 * Tue Jun 11 19:14:03 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1025 & TIVI-1030: Add bluez and obexd to images
 

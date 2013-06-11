@@ -21,6 +21,6 @@ IVI:
     Mic2Options: -f liveusb --copy-kernel --runtime=native
     Part: ivi
     Groups:
-        - Base System
+        - IVI Middleware
     Repos:
         - ivi
