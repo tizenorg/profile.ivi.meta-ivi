@@ -20,6 +20,8 @@ IVI:
     Desktop: None
     Mic2Options: -f liveusb --copy-kernel --runtime=native
     Part: ivi
+    NoChrootScripts:
+        - buildname
     Groups:
         - IVI Middleware
     Repos:
