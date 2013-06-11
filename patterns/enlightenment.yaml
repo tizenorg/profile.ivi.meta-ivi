@@ -1,9 +1,0 @@
-Description: Enlightenment
-Name: enlightenment
-Packages:
-- enlightenment
-- econnman
-- terminology
-- tizen-branding-default
-- user-session-units-enlightenment
-Summary: Enlightenment

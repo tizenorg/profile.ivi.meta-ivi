@@ -1,0 +1,5 @@
+Description: IVI Applications
+Name: ivi-applications
+Packages:
+- xterm
+Summary: IVI Applications

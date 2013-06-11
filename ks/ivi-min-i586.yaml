@@ -1,8 +1,8 @@
-Name: IVI Wayland i586
+Name: IVI Minimal i586
 Schedule: "*"
 Active: True
 Platform: IVI
-FileName: ivi-wayland-i586
+FileName: ivi-min-i586
 Kernel: kernel-x86-ivi
 Architecture: ia32
 Mic2Options: -f raw --copy-kernel --compress-disk-image=bz2 --generate-bmap
@@ -11,13 +11,11 @@ BootloaderAppend: "rootwait rootfstype=ext4"
 BootloaderTimeout: 0
 BootloaderOptions: "--ptable=gpt"
 Desktop: None
-UserGroups: "audio,video,weston-launch"
+UserGroups: "audio,video"
 PostScripts:
     - base-general
     - base-weston-default
 Groups:
     - IVI Middleware
-    - Wayland
-    - Development
     - Console Tools
     - IVI Adaptation

@@ -1,0 +1,36 @@
+Description: IVI Middleware
+Name: ivi-middleware
+Packages:
+- bash
+- bluez
+- ca-certificates-mozilla
+- connman
+- coreutils
+- corewatcher
+- csr-framework
+- curl
+- e2fsprogs
+- filesystem
+- glibc-locale
+- iproute2
+- iputils
+- ivi-repos
+- kbd
+- kmod
+- kmod-compat
+- net-tools
+- obexd
+- pam
+- pciutils
+- procps
+- psmisc
+- pwdutils
+- rpm
+- rpm-security-plugin
+- setup
+- snapper-zypp-plugin
+- systemd
+- tizen-release
+- tzdata
+- util-linux
+Summary: IVI Middleware

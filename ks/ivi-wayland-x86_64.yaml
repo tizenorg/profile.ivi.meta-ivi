@@ -1,10 +1,10 @@
-Name: IVI Wayland i586
+Name: IVI Wayland x86_64
 Schedule: "*"
 Active: True
 Platform: IVI
-FileName: ivi-wayland-i586
+FileName: ivi-wayland-x86_64
 Kernel: kernel-x86-ivi
-Architecture: ia32
+Architecture: x86_84
 Mic2Options: -f raw --copy-kernel --compress-disk-image=bz2 --generate-bmap
 Bootloader: True
 BootloaderAppend: "rootwait rootfstype=ext4"
