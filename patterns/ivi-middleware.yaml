@@ -30,7 +30,6 @@ Packages:
 - kmod-compat
 - libgee
 - libpulse
-- neard-plugin
 - neard-tizen
 - neard-tizen-test
 - neardal-tizen
