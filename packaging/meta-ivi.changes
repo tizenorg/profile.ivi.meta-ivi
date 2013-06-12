@@ -1,3 +1,6 @@
+* Wed Jun 12 01:32:43 UTC 2013 - tracy.graydon@intel.com
+- Drop the broken gst-ffmpeg package
+
 * Tue Jun 11 20:32:30 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1029: add ofono 
 
