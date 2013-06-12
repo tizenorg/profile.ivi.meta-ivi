@@ -1,3 +1,7 @@
+* Wed Jun 12 23:02:24 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1026: add wpa_supplicant
+- Add MediaPlayer 
+
 * Wed Jun 12 01:32:43 UTC 2013 - tracy.graydon@intel.com
 - Drop the broken gst-ffmpeg package
 

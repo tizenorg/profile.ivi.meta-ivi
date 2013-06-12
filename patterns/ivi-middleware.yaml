@@ -54,4 +54,5 @@ Packages:
 - tizen-release
 - tzdata
 - util-linux
+- wpa_supplicant
 Summary: IVI Middleware
