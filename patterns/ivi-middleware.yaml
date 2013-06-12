@@ -31,9 +31,6 @@ Packages:
 - libgee
 - libpulse
 - neard-tizen
-- neard-tizen-test
-- neardal-tizen
-- neardal-tizen-ncl
 - net-config
 - net-tools
 - nfc-common-lib
