@@ -30,7 +30,6 @@ Packages:
 - kmod-compat
 - libgee
 - libpulse
-- neard-tizen
 - net-config
 - net-tools
 - nfc-common-lib
