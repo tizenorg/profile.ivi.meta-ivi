@@ -11,8 +11,6 @@ Packages:
 - curl
 - dleyna
 - e2fsprogs
-- emotion-gstreamer
-
 - filesystem
 - glibc-locale
 - gst-ffmpeg
@@ -25,8 +23,6 @@ Packages:
 - gupnp
 - gupnp-av
 - gupnp-dlna
-
-
 - iproute2
 - iputils
 - ivi-repos
