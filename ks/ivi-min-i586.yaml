@@ -16,5 +16,4 @@ PostScripts:
     - base-general
     - base-ivi-minimal
 Groups:
-    - Base System
     - IVI Adaptation
