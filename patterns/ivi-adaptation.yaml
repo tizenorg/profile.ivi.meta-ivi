@@ -3,7 +3,7 @@ Name: ivi-adaptation
 Packages:
  - dracut
  - plymouth
- - linux-firmware
+ - linux-firmware-ivi
  - kernel-x86-ivi
  - xf86-input-synaptics
  - xf86-video-intel

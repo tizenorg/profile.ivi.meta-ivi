@@ -18,7 +18,6 @@ PostScripts:
 Groups:
     - IVI Middleware
     - Wayland
-    - Development
     - Console Tools
     - IVI Adaptation
     - IVI Applications

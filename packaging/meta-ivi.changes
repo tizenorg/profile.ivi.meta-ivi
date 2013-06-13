@@ -1,3 +1,9 @@
+* Thu Jun 13 23:23:12 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1026: add wpa_supplicant
+- TIVI-1028: add gst-plugins-bad
+- TIVI-1030: add obexd-client and obexd-server
+- TIVI-1040: Drop Development pattern from Wayland images for now to ungate image creation
+
 * Wed Jun 12 01:32:43 UTC 2013 - tracy.graydon@intel.com
 - Drop the broken gst-ffmpeg package
 

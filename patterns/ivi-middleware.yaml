@@ -4,6 +4,7 @@ Packages:
 - bluez
 - csr-framework
 - dleyna
+- gst-plugins-bad
 - gst-plugins-base
 - gst-plugins-good
 - gstreamer
@@ -18,10 +19,13 @@ Packages:
 - nfc-common-lib
 - nfc-manager
 - obexd
+- obexd-client
+- obexd-server
 - ofono
 - pulseaudio
 - pulseaudio-locale
 - pulseaudio-module-bluetooth
 - pulseaudio-utils
 - rygel
+- wpa_supplicant
 Summary: IVI Middleware

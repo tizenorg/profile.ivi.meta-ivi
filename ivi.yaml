@@ -24,6 +24,5 @@ IVI:
         - buildname
     Groups:
         - Base System
-        - IVI Middleware
     Repos:
         - ivi
