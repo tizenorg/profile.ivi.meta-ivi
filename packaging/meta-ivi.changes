@@ -1,3 +1,7 @@
+* Fri Jun 14 00:47:22 UTC 2013 - tracy.graydon@intel.com
+- Drop kernel-x86-ivi from ivi-adaptation. Kernel is specified in ks files instead. 
+Having it in adaptation breaks x86_64 and other arch builds.
+
 * Thu Jun 13 23:23:12 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1026: add wpa_supplicant
 - TIVI-1028: add gst-plugins-bad
