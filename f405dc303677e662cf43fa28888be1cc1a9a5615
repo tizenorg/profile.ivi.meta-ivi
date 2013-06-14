@@ -1,0 +1,10 @@
+Change-Id: If405dc303677e662cf43fa28888be1cc1a9a5615
+Code-Review+1: Mikko Ylinen <mikko.ylinen@intel.com>
+Verified+1: Mikko Ylinen <mikko.ylinen@intel.com>
+Code-Review+2: Rusty Lynch <rusty.lynch@intel.com>
+Verified+1: Rusty Lynch <rusty.lynch@intel.com>
+Submitted-by: Rusty Lynch <rusty.lynch@intel.com>
+Submitted-at: Fri, 14 Jun 2013 08:51:54 -0700
+Reviewed-on: https://review.tizen.org/gerrit/3996
+Project: profile/ivi/meta-ivi
+Branch: refs/heads/tizen
