@@ -3,7 +3,7 @@ Schedule: "*"
 Active: True
 Platform: IVI
 FileName: ivi-wayland-x86_64
-Kernel: kernel-x86-ivi
+Kernel: kernel-adaptation-pc
 Architecture: x86_84
 Mic2Options: -f raw --copy-kernel --compress-disk-image=bz2 --generate-bmap
 Bootloader: True
