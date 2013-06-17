@@ -1,3 +1,7 @@
+* Mon Jun 17 18:48:37 UTC 2013 - tracy.graydon@intel.com
+- meta-common dependency seems to have gotten dropped. Without it, "base" patterns don't get included. 
+Example: Base System. Adding build dependency back in
+
 * Fri Jun 14 00:47:22 UTC 2013 - tracy.graydon@intel.com
 - Drop kernel-x86-ivi from ivi-adaptation. Kernel is specified in ks files instead. 
 Having it in adaptation breaks x86_64 and other arch builds.

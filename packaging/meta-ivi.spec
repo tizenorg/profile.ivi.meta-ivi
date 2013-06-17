@@ -7,6 +7,7 @@ License:	GPL-2.0
 Group:		Base/Configuration
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
+BuildRequires: meta-common
 
 %description
 IVI Meta Data.
