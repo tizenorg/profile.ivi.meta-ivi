@@ -1,0 +1,9 @@
+Change-Id: I233beffe3b7b57eb9c2cb647b13061a6445b74c9
+Code-Review+1: Tracy Graydon <tracy.graydon@intel.com>
+Verified+1: Tracy Graydon <tracy.graydon@intel.com>
+Code-Review+2: Anas Nashif <anas.nashif@intel.com>
+Submitted-by: Anas Nashif <anas.nashif@intel.com>
+Submitted-at: Mon, 17 Jun 2013 17:57:56 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4037
+Project: profile/ivi/meta-ivi
+Branch: refs/heads/tizen
