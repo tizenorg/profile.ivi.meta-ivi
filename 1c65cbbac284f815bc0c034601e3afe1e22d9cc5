@@ -1,0 +1,9 @@
+Change-Id: I1c65cbbac284f815bc0c034601e3afe1e22d9cc5
+Code-Review+2: Anas Nashif <anas.nashif@intel.com>
+Code-Review+2: Rusty Lynch <rusty.lynch@intel.com>
+Verified+1: Rusty Lynch <rusty.lynch@intel.com>
+Submitted-by: Rusty Lynch <rusty.lynch@intel.com>
+Submitted-at: Thu, 20 Jun 2013 09:09:36 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4142
+Project: profile/ivi/meta-ivi
+Branch: refs/heads/tizen
