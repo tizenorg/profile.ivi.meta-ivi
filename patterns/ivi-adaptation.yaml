@@ -4,8 +4,5 @@ Packages:
  - dracut
  - plymouth
  - linux-firmware-ivi
- - xf86-input-synaptics
- - xf86-video-intel
- - xf86-input-keyboard
  - pc-installer
 Summary: IVI Adaptation
