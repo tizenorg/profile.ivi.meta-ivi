@@ -2,6 +2,5 @@ Description: IVI Applications
 Name: ivi-applications
 Packages:
 - MediaPlayer
-- webkit2-efl-test
 - xterm
 Summary: IVI Applications
