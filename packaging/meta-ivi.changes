@@ -1,3 +1,9 @@
+* Fri Jun 21 19:51:11 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1057: add wrt to ivi-middleware 
+- TIVI-1056: add ivi-repos to min image
+- TIVI-TIVI-1055: add zypper to min image
+- TIVI-982: add neard-tizen to ivi-middleware pattern
+
 * Fri Jun 21 19:19:26 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1059: Drop xterm from ivi-applications. We don't want this. 
 
