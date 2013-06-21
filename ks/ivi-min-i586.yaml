@@ -12,6 +12,9 @@ BootloaderTimeout: 0
 BootloaderOptions: "--ptable=gpt"
 Desktop: None
 UserGroups: "audio,video"
+ExtraPackages:
+    - ivi-repos
+    - zypper
 PostScripts:
     - base-general
     - base-ivi-minimal
