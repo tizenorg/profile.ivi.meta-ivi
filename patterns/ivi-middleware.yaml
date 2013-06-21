@@ -15,6 +15,7 @@ Packages:
 - gupnp-dlna
 - ivi-repos
 - libgee
+- net-config
 - nfc-common-lib
 - nfc-manager
 - obexd

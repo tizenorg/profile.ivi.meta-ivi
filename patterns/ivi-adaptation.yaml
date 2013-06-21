@@ -2,7 +2,5 @@ Description: IVI Adaptation
 Name: ivi-adaptation
 Packages:
  - dracut
- - plymouth
  - linux-firmware-ivi
- - pc-installer
 Summary: IVI Adaptation
