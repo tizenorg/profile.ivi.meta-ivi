@@ -1,0 +1,6 @@
+Description: IVI Packaging
+Name: ivi-packaging
+Packages:
+- zypper
+- ivi-repos
+Summary: IVI Packaging

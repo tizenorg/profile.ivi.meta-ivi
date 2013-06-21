@@ -17,3 +17,4 @@ PostScripts:
     - base-ivi-minimal
 Groups:
     - IVI Adaptation
+    - IVI Packaging

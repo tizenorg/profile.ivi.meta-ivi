@@ -13,8 +13,8 @@ Packages:
 - gupnp
 - gupnp-av
 - gupnp-dlna
-- ivi-repos
 - libgee
+- neard-tizen
 - net-config
 - nfc-common-lib
 - nfc-manager
@@ -28,4 +28,5 @@ Packages:
 - pulseaudio-utils
 - rygel
 - wpa_supplicant
+- wrt
 Summary: IVI Middleware
