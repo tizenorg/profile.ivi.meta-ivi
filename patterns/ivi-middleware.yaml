@@ -1,6 +1,7 @@
 Description: IVI Middleware
 Name: ivi-middleware
 Packages:
+- automotive-message-broker
 - bluez
 - csr-framework
 - dleyna
@@ -14,6 +15,7 @@ Packages:
 - gupnp-av
 - gupnp-dlna
 - libgee
+- murphy
 - neard-tizen
 - net-config
 - nfc-common-lib
@@ -25,6 +27,7 @@ Packages:
 - pulseaudio
 - pulseaudio-locale
 - pulseaudio-module-bluetooth
+- pulseaudio-module-murphy-ivi
 - pulseaudio-utils
 - rygel
 - wpa_supplicant
