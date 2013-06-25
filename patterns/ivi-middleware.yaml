@@ -27,7 +27,6 @@ Packages:
 - pulseaudio
 - pulseaudio-locale
 - pulseaudio-module-bluetooth
-- pulseaudio-module-murphy-ivi
 - pulseaudio-utils
 - rygel
 - wpa_supplicant
