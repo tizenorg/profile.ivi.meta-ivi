@@ -15,6 +15,7 @@ Packages:
 - gupnp-av
 - gupnp-dlna
 - libgee
+- libva-intel-driver
 - murphy
 - neard-tizen
 - net-config
