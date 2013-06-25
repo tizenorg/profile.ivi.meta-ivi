@@ -1,3 +1,6 @@
+* Tue Jun 25 2013 Ulf Hofemeier <ulf.hofemeier@intel.com> submit/tizen/20130625.061757@9a2d2c0
+- Adding alsa-utils.
+
 * Tue Jun 25 06:16:41 UTC 2013 - tracy.graydon@intel.com
 - Drop pulseaudio-module-murphy-ivi. Not ready to include yet 
 
