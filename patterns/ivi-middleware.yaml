@@ -32,4 +32,5 @@ Packages:
 - rygel
 - wpa_supplicant
 - wrt
+- wrt-installer
 Summary: IVI Middleware
