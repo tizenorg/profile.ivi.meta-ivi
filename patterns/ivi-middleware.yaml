@@ -17,6 +17,7 @@ Packages:
 - gupnp-dlna
 - libgee
 - libva-intel-driver
+- media-data-sdk
 - murphy
 - neard-tizen
 - net-config
@@ -34,4 +35,5 @@ Packages:
 - wpa_supplicant
 - wrt
 - wrt-installer
+- wrt-plugins-tizen
 Summary: IVI Middleware

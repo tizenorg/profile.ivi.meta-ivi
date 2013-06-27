@@ -5,7 +5,7 @@ Platform: IVI
 FileName: ivi-min-i586
 Kernel: kernel-x86-ivi
 Architecture: ia32
-Mic2Options: -f raw --copy-kernel --compress-disk-image=bz2 --generate-bmap
+Mic2Options: -f raw --fstab-entry=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap --runtime=native
 Bootloader: True
 BootloaderAppend: "rootwait rootfstype=ext4"
 BootloaderTimeout: 0

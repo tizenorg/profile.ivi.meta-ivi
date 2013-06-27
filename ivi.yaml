@@ -18,8 +18,8 @@ IVI:
     StartX: False
     Architecture: ia32
     Desktop: None
-    Mic2Options: -f liveusb --copy-kernel --runtime=native
-    Part: ivi
+    Mic2Options: -f raw --fstab-entry=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap --runtime=native
+     Part: ivi
     NoChrootScripts:
         - buildname
     Groups:
