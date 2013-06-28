@@ -1,3 +1,7 @@
+* Fri Jun 28 21:55:24 UTC 2013 - tracy.graydon@intel.com
+- Add usergroups needed by wrt applications. 
+- A little reorganization of ivi.yaml and removed duplicated stuff from ks files 
+
 * Fri Jun 28 2013 Ulf Hofemeier <ulf.hofemeier@intel.com> submit/tizen/20130628.034828@1707823
 - Adding dlogutil to QA pattern to enable improved logging capabilities
 
