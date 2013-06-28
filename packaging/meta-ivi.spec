@@ -1,5 +1,3 @@
-%define profile ivi
-
 Summary:	IVI Meta Data
 Name:		meta-ivi
 Version:	002
