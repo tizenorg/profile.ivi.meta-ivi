@@ -32,7 +32,7 @@ Default:
         - buildname  
 
 Wayland:
-    UserGroups: "audio,video,weston-launch,app,developer,testuser,db_menu,crash,db_alarm,db_browser,db_calendar,db_cc_list,db_contact,db_email_service,db_java_runtime,db_logs,db_memo,db_menu,db_msg_service,db_mtp,db_spkmgr,db_t9buffer,db_worldclock,db_sns,db_filemanager,db_daily_briefing,db_always,db_media_browser,db_music,db_drm,db_lbs_landmark,db_comm,db_quickpanel,db_wrt"
+    UserGroups: "audio,video,weston-launch,app,developer,testuser,db_menu,crash,db_alarm,db_browser,db_calendar"
     Groups:
         - IVI Middleware
         - Wayland
