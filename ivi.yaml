@@ -27,7 +27,6 @@ Default:
     PostScripts:
         - base-general
         - base-ivi-minimal
-        - rpm
     NoChrootScripts:
         - buildname  
 
