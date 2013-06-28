@@ -4,6 +4,7 @@ Packages:
 - bluez-test
 - connman-test
 - dbus-python
+- dlogutil
 - eet-tools
 - gdb
 - gstreamer-utils
