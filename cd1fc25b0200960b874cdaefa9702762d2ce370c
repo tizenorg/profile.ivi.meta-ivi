@@ -1,0 +1,10 @@
+Change-Id: Icd1fc25b0200960b874cdaefa9702762d2ce370c
+Code-Review+1: Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
+Verified+1: Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
+Code-Review+2: Tracy Graydon <tracy.graydon@intel.com>
+Verified+1: Tracy Graydon <tracy.graydon@intel.com>
+Submitted-by: Tracy Graydon <tracy.graydon@intel.com>
+Submitted-at: Fri, 28 Jun 2013 12:02:29 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4533
+Project: profile/ivi/meta-ivi
+Branch: refs/heads/tizen
