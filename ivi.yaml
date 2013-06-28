@@ -19,7 +19,7 @@ IVI:
     Architecture: ia32
     Desktop: None
     Mic2Options: -f raw --fstab-entry=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap --runtime=native
-     Part: ivi
+    Part: ivi
     NoChrootScripts:
         - buildname
     Groups:
