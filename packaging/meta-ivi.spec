@@ -1,13 +1,14 @@
+%define profile ivi
+
 Summary:	IVI Meta Data
 Name:		meta-ivi
-Version:	001
+Version:	002
 Release:	1
 BuildArch:  noarch
 License:	GPL-2.0
 Group:		Base/Configuration
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-BuildRequires: meta-common
 
 %description
 IVI Meta Data.
