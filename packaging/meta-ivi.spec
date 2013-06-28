@@ -26,7 +26,7 @@ make
 
 %files
 %attr(644,-,-) %{_datadir}/package-groups/ivi/*.yaml
-%attr(644,-,-) %{_datadir}/image-configurations/ivi/*.yaml
-%attr(644,-,-) %{_datadir}/image-configurations/ivi/configs/*.yaml
-%attr(644,-,-) %{_datadir}/image-configurations/ivi/partitions/*
-%attr(644,-,-) %{_datadir}/image-configurations/ivi/scripts/*
+%{_datadir}/image-configurations/ivi/*.yaml
+%{_datadir}/image-configurations/ivi/configs/*.yaml
+%{_datadir}/image-configurations/ivi/partitions
+%{_datadir}/image-configurations/ivi/scripts
