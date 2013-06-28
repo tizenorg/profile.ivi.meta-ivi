@@ -1,28 +1,10 @@
 Name: IVI Release i586
 Schedule: "*"
 Active: True
-Platform: IVI
+Platform: Wayland
 FileName: ivi-release-i586
 Kernel: kernel-x86-ivi
-Architecture: ia32
-Mic2Options: -f raw  --fstab-entry=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap --runtime=native 
-Bootloader: True
-BootloaderAppend: "rootwait rootfstype=ext4"
-BootloaderTimeout: 0
-BootloaderOptions: "--ptable=gpt"
-Desktop: None
-UserGroups: "audio,video,weston-launch"
 ExtraPackages:
     - release-repos
 RemovePackages:
     - ivi-repos
-PostScripts:
-    - base-general
-    - base-weston-default
-Groups:
-    - IVI Middleware
-    - Wayland
-    - Console Tools
-    - IVI Adaptation
-    - IVI Applications
-    - IVI Packaging

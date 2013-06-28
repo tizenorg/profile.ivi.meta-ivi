@@ -1,24 +1,7 @@
 Name: IVI Wayland x86_64
 Schedule: "*"
 Active: True
-Platform: IVI
+Platform: Wayland
 FileName: ivi-wayland-x86_64
 Kernel: kernel-adaptation-pc
 Architecture: x86_84
-Mic2Options: -f raw  --fstab-entry=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap  --runtime=native
-Bootloader: True
-BootloaderAppend: "rootwait rootfstype=ext4"
-BootloaderTimeout: 0
-BootloaderOptions: "--ptable=gpt"
-Desktop: None
-UserGroups: "audio,video,weston-launch"
-PostScripts:
-    - base-general
-    - base-weston-default
-Groups:
-    - IVI Middleware
-    - Wayland
-    - Console Tools
-    - IVI Adaptation
-    - IVI Applications
-    - IVI Packaging

@@ -1,20 +1,6 @@
 Name: IVI Minimal i586
 Schedule: "*"
 Active: True
-Platform: IVI
+Platform: Default
 FileName: ivi-min-i586
 Kernel: kernel-x86-ivi
-Architecture: ia32
-Mic2Options: -f raw --fstab-entry=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap --runtime=native
-Bootloader: True
-BootloaderAppend: "rootwait rootfstype=ext4"
-BootloaderTimeout: 0
-BootloaderOptions: "--ptable=gpt"
-Desktop: None
-UserGroups: "audio,video"
-PostScripts:
-    - base-general
-    - base-ivi-minimal
-Groups:
-    - IVI Adaptation
-    - IVI Packaging
