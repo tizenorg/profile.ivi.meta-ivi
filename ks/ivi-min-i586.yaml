@@ -2,5 +2,6 @@ Name: IVI Minimal i586
 Schedule: "*"
 Active: True
 Platform: Default
+Part: ivi
 FileName: ivi-min-i586
 Kernel: kernel-x86-ivi

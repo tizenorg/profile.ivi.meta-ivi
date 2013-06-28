@@ -2,5 +2,6 @@ Name: IVI Wayland i586
 Schedule: "*"
 Active: True
 Platform: Wayland
+Part: ivi
 FileName: ivi-wayland-i586
 Kernel: kernel-x86-ivi

@@ -2,6 +2,7 @@ Name: IVI Release i586
 Schedule: "*"
 Active: True
 Platform: Wayland
+Part: ivi
 FileName: ivi-release-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:

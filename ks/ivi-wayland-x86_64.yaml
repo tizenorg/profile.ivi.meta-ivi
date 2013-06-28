@@ -2,6 +2,7 @@ Name: IVI Wayland x86_64
 Schedule: "*"
 Active: True
 Platform: Wayland
+Part: ivi
 FileName: ivi-wayland-x86_64
 Kernel: kernel-adaptation-pc
 Architecture: x86_84
