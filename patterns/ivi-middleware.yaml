@@ -15,6 +15,7 @@ Packages:
 - gupnp
 - gupnp-av
 - gupnp-dlna
+- lemolo
 - libgee
 - libva-intel-driver
 - media-data-sdk
@@ -29,6 +30,7 @@ Packages:
 - ofono
 - pulseaudio
 - pulseaudio-locale
+- pulseaudio-module-murphy-ivi
 - pulseaudio-module-bluetooth
 - pulseaudio-utils
 - rygel

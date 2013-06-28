@@ -3,4 +3,5 @@ Name: ivi-applications
 Packages:
 - MediaPlayer
 - webkit2-efl-test
+- GhostCluster
 Summary: IVI Applications
