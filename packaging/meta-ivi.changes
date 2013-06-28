@@ -1,3 +1,6 @@
+* Fri Jun 28 2013 Ulf Hofemeier <ulf.hofemeier@intel.com> submit/tizen/20130628.034828@1707823
+- Adding dlogutil to QA pattern to enable improved logging capabilities
+
 * Fri Jun 28 01:04:00 UTC 2013 - tracy.graydon@intel.com
 - Add the IVI profile define for use with unified image-configurations and package-groups 
 
