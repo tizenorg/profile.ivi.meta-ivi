@@ -32,6 +32,7 @@ Default:
         - buildname  
 
 Wayland:
+    Part: ivi
     UserGroups: "audio,video,weston-launch,app,developer,testuser,db_menu,crash,db_alarm,db_browser,db_calendar"
     Groups:
         - IVI Middleware
