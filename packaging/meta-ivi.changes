@@ -1,3 +1,6 @@
+* Mon Jul  1 21:53:19 UTC 2013 - tracy.graydon@intel.com
+- echo the build ID to /etc/os-release (buildname postscript) 
+
 * Mon Jul  1 19:47:53 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1067: remove nfc* packages from ivi-middleware pattern 
 
