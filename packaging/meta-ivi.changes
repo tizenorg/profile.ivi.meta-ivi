@@ -1,3 +1,6 @@
+* Mon Jul  1 19:47:53 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1067: remove nfc* packages from ivi-middleware pattern 
+
 * Fri Jun 28 21:55:24 UTC 2013 - tracy.graydon@intel.com
 - Add usergroups needed by wrt applications. 
 - A little reorganization of ivi.yaml and removed duplicated stuff from ks files 

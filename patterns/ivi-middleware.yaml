@@ -22,8 +22,6 @@ Packages:
 - murphy
 - neard-tizen
 - net-config
-- nfc-common-lib
-- nfc-manager
 - obexd
 - obexd-client
 - obexd-server
