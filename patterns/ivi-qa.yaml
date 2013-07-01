@@ -8,7 +8,7 @@ Packages:
 - eet-tools
 - gdb
 - gstreamer-utils
-- neard-test
+- neard-tizen-test
 - ofono-test
 - python-xml
 - wget

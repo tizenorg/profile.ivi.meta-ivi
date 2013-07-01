@@ -1,5 +1,4 @@
 ln -sf /proc/self/mounts /etc/mtab
 
-
 rm -rf /root/.zypp
 
