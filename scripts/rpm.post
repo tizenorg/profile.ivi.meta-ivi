@@ -1,5 +1,3 @@
 # rpm.post
 rm -f /var/lib/rpm/__db*
-mv -f /var/lib/rpm /opt/var/lib/ 
-ln -sf /opt/var/lib/rpm /var/lib/rpm
 rpmdb --rebuilddb

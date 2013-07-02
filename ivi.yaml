@@ -26,6 +26,7 @@ Default:
         - IVI Packaging
     PostScripts:
         - base-general
+        - rpm
     NoChrootScripts:
         - buildname  
 
