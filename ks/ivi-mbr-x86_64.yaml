@@ -3,6 +3,6 @@ Schedule: "*"
 Active: False
 Platform: Wayland
 Part: ivi
-FileName: ivi-wayland-mbr-x86_64
+FileName: ivi-mbr-x86_64
 Kernel: kernel-adaptation-pc
 Architecture: x86_84

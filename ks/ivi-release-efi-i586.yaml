@@ -3,7 +3,7 @@ Schedule: "*"
 Active: False
 Platform: Wayland
 Part: ivi
-FileName: ivi-wayland-release-efi-i586
+FileName: ivi-release-efi-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos

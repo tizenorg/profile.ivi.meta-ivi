@@ -3,5 +3,5 @@ Schedule: "*"
 Active: True
 Platform: Wayland
 Part: ivi
-FileName: ivi-wayland-mbr-i586
+FileName: ivi-mbr-i586
 Kernel: kernel-x86-ivi

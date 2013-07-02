@@ -1,3 +1,6 @@
+* Tue Jul  2 22:53:25 UTC 2013 - tracy.graydon@intel.com
+- Drop "wayland" from the ks and image name for wayland images. It's hideously clunky. 
+
 * Tue Jul  2 19:02:39 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1121: remove --fstab=uuid causing filesystem to be mounted ro.
 - Add new ks files for EFI boot (currently disabled) and rename mbr images 
