@@ -1,0 +1,7 @@
+Name: IVI Wayland EFI i586
+Schedule: "*"
+Active: False
+Platform: Wayland
+Part: ivi
+FileName: ivi-wayland-efi-i586
+Kernel: kernel-x86-ivi

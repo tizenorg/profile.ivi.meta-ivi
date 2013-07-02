@@ -1,0 +1,11 @@
+Name: IVI Wayland Release EFI i586
+Schedule: "*"
+Active: False
+Platform: Wayland
+ art: ivi
+FileName: ivi-wayland-release-efi-i586
+Kernel: kernel-x86-ivi
+ExtraPackages:
+    - release-repos
+RemovePackages:
+    - ivi-repos

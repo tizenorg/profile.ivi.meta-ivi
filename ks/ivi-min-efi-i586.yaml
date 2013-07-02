@@ -1,9 +1,9 @@
-Name: IVI Minimal i586
+Name: IVI Minimal EFI i586
 Schedule: "*"
-Active: True
+Active: False
 Platform: Default
 Part: ivi
-FileName: ivi-min-i586
+FileName: ivi-min-efi-i586
 Kernel: kernel-x86-ivi
 PostScripts:
     - base-ivi-minimal

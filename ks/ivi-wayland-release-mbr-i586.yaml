@@ -1,9 +1,9 @@
-Name: IVI Release i586
+Name: IVI Wayland Release MBR i586
 Schedule: "*"
 Active: True
 Platform: Wayland
-Part: ivi
-FileName: ivi-release-i586
+ art: ivi
+FileName: ivi-wayland-release-mbr-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos

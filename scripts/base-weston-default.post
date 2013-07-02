@@ -1,3 +1,4 @@
+# base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
 ln -sf ../user-session@.service /usr/lib/systemd/system/graphical.target.wants/user-session@1000.service
 ln -sf weston.target  /usr/lib/systemd/user/default.target
