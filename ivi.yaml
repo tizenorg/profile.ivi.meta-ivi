@@ -1,7 +1,7 @@
 Default:
     Baseline: tizen-3.0
     Active: True
-    Mic2Options: -f raw --copy-kernel --runtime=native --compress-disk-image=bz2 --generate-bmap
+    Mic2Options: -f raw --fstab=name --copy-kernel --runtime=native --compress-disk-image=bz2 --generate-bmap
     Architecture: ia32
     Part: ivi
     Language: en_US.UTF-8
