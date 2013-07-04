@@ -1,11 +1,14 @@
-Name: IVI Wayland Release EFI i586
+Name: IVI Release EFI i586
 Schedule: "*"
 Active: False
 Platform: Wayland
-Part: ivi
+Part: ivi-efi
 FileName: ivi-release-efi-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos
+    - setup-efi-ivi
 RemovePackages:
     - ivi-repos
+PostScripts:
+    - efi

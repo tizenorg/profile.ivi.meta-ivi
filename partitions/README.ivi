@@ -1,0 +1,4 @@
+ivi-mbr partition file is for images using "legacy" mbr partitioning scheme.
+ivi-efi partition file is for images using EFI partitoning scheme.
+
+These files are referenced in the respective image ks files to set the partitioning accordingly

@@ -1,7 +1,7 @@
-Name: IVI Wayland MBR i586
+Name: IVI MBR i586
 Schedule: "*"
 Active: True
 Platform: Wayland
-Part: ivi
+Part: ivi-mbr
 FileName: ivi-mbr-i586
 Kernel: kernel-x86-ivi

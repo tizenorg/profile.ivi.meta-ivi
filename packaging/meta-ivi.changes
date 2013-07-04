@@ -1,3 +1,6 @@
+* Thu Jul  4 06:18:32 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1052: set up EFI bootable images
+
 * Tue Jul  2 22:53:25 UTC 2013 - tracy.graydon@intel.com
 - Drop "wayland" from the ks and image name for wayland images. It's hideously clunky. 
 

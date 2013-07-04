@@ -3,7 +3,7 @@ Default:
     Active: True
     Mic2Options: -f raw --fstab=name --copy-kernel --runtime=native --compress-disk-image=bz2 --generate-bmap
     Architecture: ia32
-    Part: ivi
+    Part: ivi-mbr
     Language: en_US.UTF-8
     Keyboard: us
     Timezone: America/Los_Angeles
@@ -31,7 +31,7 @@ Default:
         - buildname  
 
 Wayland:
-    Part: ivi
+    Part: ivi-mbr
     UserGroups: "audio,video,weston-launch"
     Groups:
         - IVI Middleware

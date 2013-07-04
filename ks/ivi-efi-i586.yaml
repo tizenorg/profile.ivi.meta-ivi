@@ -1,7 +1,11 @@
-Name: IVI Wayland EFI i586
+Name: IVI EFI i586
 Schedule: "*"
-Active: False
+Active: True
 Platform: Wayland
-Part: ivi
+Part: ivi-efi
 FileName: ivi-efi-i586
 Kernel: kernel-x86-ivi
+ExtraPackages:
+    - setup-efi-ivi
+PostScripts:
+    - efi

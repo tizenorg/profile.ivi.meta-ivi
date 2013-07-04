@@ -2,7 +2,7 @@ Name: IVI Minimal MBR i586
 Schedule: "*"
 Active: True
 Platform: Default
-Part: ivi
+Part: ivi-mbr
 FileName: ivi-min-mbr-i586
 Kernel: kernel-x86-ivi
 PostScripts:

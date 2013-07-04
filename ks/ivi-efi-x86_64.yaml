@@ -1,8 +1,12 @@
-Name: IVI Wayland EFI x86_64
+Name: IVI EFI x86_64
 Schedule: "*"
 Active: False
 Platform: Wayland
-Part: ivi
+Part: ivi-efi
 FileName: ivi-efi-x86_64
 Kernel: kernel-adaptation-pc
 Architecture: x86_84
+ExtraPackages:
+    - setup-efi-ivi
+PostScripts:
+    - efi
