@@ -4,6 +4,7 @@ Active: True
 Platform: Wayland
 Part: ivi-efi
 FileName: ivi-efi-i586
+InstallerFrameworkPlugins: extlinux
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - setup-efi-ivi
