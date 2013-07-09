@@ -4,7 +4,8 @@ Active: False
 Platform: Wayland
 Part: ivi-efi
 FileName: ivi-release-efi-i586
-InstallerFrameworkPlugins: "extlinux"
+InstallerFrameworkPlugins: 
+    - extlinux
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos

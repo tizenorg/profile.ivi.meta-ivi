@@ -1,3 +1,6 @@
+* Tue Jul  9 18:39:29 UTC 2013 - tracy.graydon@intel.com
+- Change the format of the EFI extlinux key 
+
 * Mon Jul  8 20:18:49 UTC 2013 - tracy.graydon@intel.com
 - Add the InstallerFrameworkPlugins: extlinux line to the efi kickstarts
 
