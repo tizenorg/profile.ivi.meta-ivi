@@ -2,7 +2,7 @@ Name: IVI Minimal EFI i586
 Schedule: "*"
 Active: True
 Platform: Default
-Installerfw: "extlinux"
+InstallerFrameworkPlugins: "extlinux"
 Part: ivi-efi
 FileName: ivi-min-efi-i586
 Kernel: kernel-x86-ivi
