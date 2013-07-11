@@ -32,6 +32,7 @@ Packages:
 - pulseaudio-module-bluetooth
 - pulseaudio-utils
 - rygel
+- sdbd
 - wpa_supplicant
 - wrt
 - wrt-installer
