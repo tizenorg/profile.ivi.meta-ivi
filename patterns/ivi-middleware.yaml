@@ -20,7 +20,7 @@ Packages:
 - libva-intel-driver
 - media-data-sdk
 - murphy
-- neard-tizen
+- neard
 - net-config
 - obexd
 - obexd-client
