@@ -2,3 +2,12 @@
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
 ln -sf ../user-session@.service /usr/lib/systemd/system/graphical.target.wants/user-session@1000.service
 ln -sf weston.target  /usr/lib/systemd/user/default.target
+
+# Add over-riding environment to enable the web runtime to
+# run on an IVI image as a different user then the tizen user
+cat > /etc/sysconfig/wrt <<EOF
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/dbus/user_bus_socket
+XDG_RUNTIME_DIR=/run/user/1000
+ELM_ENGINE=wayland_egl
+ECORE_EVAS_ENGINE=wayland_egl
+EOF
