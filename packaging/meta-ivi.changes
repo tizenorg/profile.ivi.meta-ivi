@@ -1,3 +1,6 @@
+* Wed Jul 17 23:58:43 UTC 2013 - tracy.graydon@intel.com
+- Add libprivilege-control-conf to patterns 
+
 * Wed Jul 17 2013 Rusty Lynch <rusty.lynch@intel.com> accepted/tizen/20130716.235443@d791d6c
 - Add wayland specific env over-rides for the WRT
 
