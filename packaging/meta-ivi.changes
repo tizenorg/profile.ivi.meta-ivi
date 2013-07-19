@@ -1,3 +1,6 @@
+* Fri Jul 19 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130719.020151@b60a3df
+- Fix name of launchpad config file
+
 * Thu Jul 18 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130718.211646@1e6f367
 - Boot into 'app' user with initialized pkg database
 
