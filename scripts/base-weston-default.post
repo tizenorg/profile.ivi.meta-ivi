@@ -1,13 +1,28 @@
+# Initialize the native application database
+pkg_initdb
+
+# Create the 'app' user
+/usr/sbin/useradd -u 5000 -g users -G audio,video,weston-launch -m app
+
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
-ln -sf ../user-session@.service /usr/lib/systemd/system/graphical.target.wants/user-session@1000.service
+ln -sf ../user-session@.service /usr/lib/systemd/system/graphical.target.wants/user-session@5000.service
 ln -sf weston.target  /usr/lib/systemd/user/default.target
 
 # Add over-riding environment to enable the web runtime to
 # run on an IVI image as a different user then the tizen user
 cat > /etc/sysconfig/wrt <<EOF
-DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/dbus/user_bus_socket
-XDG_RUNTIME_DIR=/run/user/1000
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/5000/dbus/user_bus_socket
+XDG_RUNTIME_DIR=/run/user/5000
 ELM_ENGINE=wayland_egl
 ECORE_EVAS_ENGINE=wayland_egl
+EOF
+
+# Use the same over-rides for the native prelaunch daemon
+cp /etc/sysconfig/wrt /etc/sysconfig/prelaunch
+
+# Add a rule to ensure the app user has permissions to
+# open the graphics device
+cat > /etc/udev/rules.d/99-dri.rules <<EOF
+SUBSYSTEM=="drm", MODE="0666"
 EOF

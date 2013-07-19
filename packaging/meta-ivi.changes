@@ -1,3 +1,6 @@
+* Thu Jul 18 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130718.211646@1e6f367
+- Boot into 'app' user with initialized pkg database
+
 * Thu Jul 18 05:36:43 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1386: add gdb-server to ivi-middleware
 
