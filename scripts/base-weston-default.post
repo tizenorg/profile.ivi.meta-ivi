@@ -1,3 +1,6 @@
+# Create sym link to work around hardcoded assumptions about home directories
+ln -s /home /opt/home
+
 # Initialize the native application database
 pkg_initdb
 
