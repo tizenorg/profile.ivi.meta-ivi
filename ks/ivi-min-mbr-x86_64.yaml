@@ -1,0 +1,10 @@
+Name: IVI Minimal MBR x86_64
+Schedule: "*"
+Active: True
+Platform: Default
+Part: ivi-mbr
+FileName: ivi-min-mbr-x86_64
+Architecture: x86_64
+Kernel: kernel-adaptation-pc
+PostScripts:
+    - base-ivi-minimal

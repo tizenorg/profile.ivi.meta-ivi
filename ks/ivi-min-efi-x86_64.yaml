@@ -1,16 +1,15 @@
-Name: IVI EFI x86_64
+Name: IVI Minimal EFI x86_64
 Schedule: "*"
 Active: True
-Platform: Wayland
+Platform: Default
 InstallerFrameworkPlugins: 
     - extlinux
 Part: ivi-efi
-FileName: ivi-efi-x86_64
-Architecture: x86_64
-Kernel: kernel-adaptation-pc
+FileName: ivi-min-efi-x86_64
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:
     - setup-efi-ivi
 PostScripts:
+    - base-ivi-minimal
     - efi
