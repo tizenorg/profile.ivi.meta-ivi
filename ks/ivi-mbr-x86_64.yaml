@@ -1,6 +1,6 @@
 Name: IVI MBR x86_64
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland
 Part: ivi-mbr
 FileName: ivi-mbr-x86_64
