@@ -1,3 +1,6 @@
+* Wed Jul 24 20:33:53 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1065: Add gst-libav to ivi-middleware 
+
 * Tue Jul 23 23:49:41 UTC 2013 - tracy.graydon@intel.com
 - TIVI-918: add neardal, nfc-manager-neard, and nfc-common-lib-neard to ivi-middleware
 
