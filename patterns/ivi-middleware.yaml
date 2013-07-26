@@ -7,7 +7,6 @@ Packages:
 - csr-framework
 - dleyna
 - gdb-server
-- gst-libav
 - gst-plugins-bad
 - gst-plugins-base
 - gst-plugins-good
@@ -34,7 +33,6 @@ Packages:
 - ofono
 - pulseaudio
 - pulseaudio-locale
-- pulseaudio-module-murphy-ivi
 - pulseaudio-module-bluetooth
 - pulseaudio-utils
 - rygel
