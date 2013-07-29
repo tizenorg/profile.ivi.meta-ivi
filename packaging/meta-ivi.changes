@@ -1,3 +1,6 @@
+* Mon Jul 29 18:20:46 UTC 2013 - tracy.graydon@intel.com
+- Add pulseaudio-module-murphy-ivi back to ivi-middleware.yaml
+
 * Wed Jul 24 20:33:53 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1065: Add gst-libav to ivi-middleware 
 
