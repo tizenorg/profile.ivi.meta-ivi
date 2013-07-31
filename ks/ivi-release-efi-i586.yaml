@@ -1,6 +1,6 @@
 Name: IVI Release EFI i586
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland
 Part: ivi-efi
 FileName: ivi-release-efi-i586
