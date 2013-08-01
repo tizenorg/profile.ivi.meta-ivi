@@ -1,3 +1,6 @@
+* Thu Aug  1 22:12:05 UTC 2013 - tracy.graydon@intel.com
+- Temporarily drop sdbd and GhostCluster from x86_64 to ungate image creation
+
 * Wed Jul 31 20:08:48 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1157: enable x86_64 images 
 - Turn off release images

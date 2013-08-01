@@ -10,6 +10,8 @@ Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:
     - setup-efi-ivi
+RemovePackage:
+    - sdbd
 PostScripts:
     - base-ivi-minimal
     - efi

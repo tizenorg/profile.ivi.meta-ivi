@@ -12,5 +12,8 @@ Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:
     - setup-efi-ivi
+RemovePackages:
+    - GhostCluster
+    - sdbd
 PostScripts:
     - efi
