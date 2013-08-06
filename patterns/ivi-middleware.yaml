@@ -17,6 +17,7 @@ Packages:
 - gupnp
 - gupnp-av
 - gupnp-dlna
+- iptables
 - lemolo
 - libgee
 - libprivilege-control-conf

@@ -1,3 +1,6 @@
+* Tue Aug  6 20:18:20 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1449: add iptables to ivi-middleware pattern.
+
 * Thu Aug  1 22:12:05 UTC 2013 - tracy.graydon@intel.com
 - Temporarily drop sdbd and GhostCluster from x86_64 to ungate image creation
 
