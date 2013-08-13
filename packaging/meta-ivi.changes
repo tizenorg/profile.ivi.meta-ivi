@@ -1,3 +1,8 @@
+* Tue Aug 13 00:10:42 UTC 2013 - tracy.graydon@intel.com
+- Drop nfc-manager packages that are unresolvable due to missing bluetooth-tools package. 
+Will re-add them once the bluetooth-tools package issue is resolved. They are blocking image
+creation at the moment 
+
 * Tue Aug  6 20:18:20 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1449: add iptables to ivi-middleware pattern.
 
