@@ -1,7 +1,7 @@
 Name: IVI EFI i586
 Schedule: "*"
 Active: True
-Platform: Wayland
+Platform: Wayland-i586
 InstallerFrameworkPlugins: 
     - extlinux
 Part: ivi-efi

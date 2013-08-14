@@ -1,7 +1,7 @@
 Name: IVI Release MBR i586
 Schedule: "*"
 Active: False
-Platform: Wayland
+Platform: Wayland-i586
 Part: ivi-mbr
 FileName: ivi-release-mbr-i586
 Kernel: kernel-x86-ivi
