@@ -3,4 +3,5 @@ Name: ivi-packaging
 Packages:
 - zypper
 - ivi-repos
+- yum
 Summary: IVI Packaging

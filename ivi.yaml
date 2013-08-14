@@ -30,7 +30,7 @@ Default:
     NoChrootScripts:
         - buildname  
 
-Wayland:
+Wayland-i586:
     Part: ivi-mbr
     UserGroups: "audio,video,weston-launch"
     Groups:
@@ -40,3 +40,16 @@ Wayland:
         - IVI Applications
     PostScripts:
         - base-weston-default
+
+Wayland-x86_64:
+    Part: ivi-mbr
+    UserGroups: "audio,video,weston-launch"
+    Groups:
+        - IVI Middleware x86_64
+        - Wayland
+        - Console Tools
+        - IVI Applications x86_64
+    PostScripts:
+        - base-weston-default
+
+    
