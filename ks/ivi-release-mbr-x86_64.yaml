@@ -7,6 +7,4 @@ FileName: ivi-release-mbr-x86_64
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:
-    - release-repos
-RemovePackages:
-    - ivi-repos
+    - release-repos-x86_64

@@ -11,6 +11,7 @@ Kernel: kernel-adaptation-pc
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:
+    - ivi-repos-x86_64
     - setup-efi-ivi
 RemovePackages:
     - GhostCluster

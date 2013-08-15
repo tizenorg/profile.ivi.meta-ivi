@@ -7,6 +7,8 @@ FileName: ivi-mbr-x86_64
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
 Architecture: x86_84
+ExtraPackages:
+    - ivi-repos-x86_64
 RemovePackages:
     - GhostCluster
     - sdbd

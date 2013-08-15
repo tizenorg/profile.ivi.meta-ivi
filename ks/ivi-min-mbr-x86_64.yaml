@@ -6,6 +6,8 @@ Part: ivi-mbr
 FileName: ivi-min-mbr-x86_64
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
+ExtraPackages:
+    - ivi-repos-x86_64
 RemovePackages:
     - sdbd
 PostScripts:

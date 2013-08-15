@@ -7,5 +7,3 @@ FileName: ivi-release-mbr-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos
-RemovePackages:
-    - ivi-repos

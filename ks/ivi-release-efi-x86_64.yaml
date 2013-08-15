@@ -9,9 +9,7 @@ InstallerFrameworkPlugins:
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:
-    - release-repos
+    - release-repos-x86_64
     - setup-efi-ivi
-RemovePackages:
-    - ivi-repos
 PostScripts:
     - efi

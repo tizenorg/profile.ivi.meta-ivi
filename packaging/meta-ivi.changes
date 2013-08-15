@@ -1,3 +1,6 @@
+* Thu Aug 15 18:50:56 UTC 2013 - tracy.graydon@intel.com
+- Add repos for x86_64 images.
+
 *Tue Aug 13 23:45:10 UTC 2013 - tracy.graydon@intel.com
 - Add nfc/neard packages back in now that bluetooth-tools dep is fixed 
 
