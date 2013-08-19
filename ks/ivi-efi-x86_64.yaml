@@ -1,6 +1,6 @@
 Name: IVI EFI x86_64
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland-x86_64
 InstallerFrameworkPlugins: 
     - extlinux
