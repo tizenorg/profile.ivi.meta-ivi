@@ -1,6 +1,6 @@
 Name: IVI Minimal EFI x86_64
 Schedule: "*"
-Active: True
+Active: False
 Platform: Default
 InstallerFrameworkPlugins: 
     - extlinux
