@@ -1,6 +1,6 @@
 Name: IVI Minimal EFI i586
 Schedule: "*"
-Active: False
+Active: True
 Platform: Default
 InstallerFrameworkPlugins: 
     - extlinux

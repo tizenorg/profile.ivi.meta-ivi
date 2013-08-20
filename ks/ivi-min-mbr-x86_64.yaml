@@ -1,6 +1,6 @@
 Name: IVI Minimal MBR x86_64
 Schedule: "*"
-Active: False
+Active: True
 Platform: Default
 Part: ivi-mbr
 FileName: ivi-min-mbr-x86_64
