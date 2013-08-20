@@ -34,6 +34,7 @@ Packages:
 - obexd-server
 - ofono
 - pulseaudio
+- pulseaudio-config
 - pulseaudio-locale
 - pulseaudio-module-bluetooth
 - pulseaudio-module-murphy-ivi
