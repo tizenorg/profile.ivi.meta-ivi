@@ -51,5 +51,3 @@ Wayland-x86_64:
         - IVI Applications x86_64
     PostScripts:
         - base-weston-default
-
-    

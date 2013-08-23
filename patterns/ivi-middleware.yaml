@@ -1,8 +1,9 @@
 Description: IVI Middleware
 Name: ivi-middleware
 Packages:
-- automotive-message-broker
 - alsa-utils
+- automotive-message-broker
+- attr
 - bluez
 - csr-framework
 - dleyna
@@ -41,6 +42,7 @@ Packages:
 - pulseaudio-utils
 - rygel
 - sdbd
+- which
 - wpa_supplicant
 - wrt
 - wrt-installer

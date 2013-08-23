@@ -1,8 +1,9 @@
 Description: IVI Middleware x86_64
 Name: ivi-middleware-x86_64
 Packages:
-- automotive-message-broker
 - alsa-utils
+- automotive-message-broker
+- attr
 - bluez
 - csr-framework
 - dleyna

@@ -6,5 +6,13 @@ Packages:
 - MediaPlayer
 - pocketsphinx
 - sphinxbase
+- syncevolution
+- syncevolution-devel        
+- syncevolution-ebook        
+- syncevolution-ecal        
+- syncevolution-http-server
+- syncevolution-pbap         
+- syncevolution-phone-config 
+- syncevolution-synccompare 
 - webkit2-efl-test
 Summary: IVI Applications
