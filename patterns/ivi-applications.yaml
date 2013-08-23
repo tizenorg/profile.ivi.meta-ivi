@@ -10,7 +10,6 @@ Packages:
 - syncevolution-devel        
 - syncevolution-ebook        
 - syncevolution-ecal        
-- syncevolution-http-server
 - syncevolution-pbap         
 - syncevolution-phone-config 
 - syncevolution-synccompare 
