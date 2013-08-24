@@ -1,8 +1,8 @@
 # Initialize the native application database
 pkg_initdb
 
-# Create the 'app' user
-/usr/sbin/useradd -u 5000 -g users -G weston-launch -m app
+# Add app user to weston-launch group
+/usr/sbin/usermod app -g users -G weston-launch
 
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
