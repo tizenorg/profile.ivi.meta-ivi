@@ -7,8 +7,9 @@ Default:
     Language: en_US.UTF-8
     Keyboard: us
     Timezone: America/Los_Angeles
-    DefaultUser: app
     RootPass: tizen
+    DefaultUser: app
+    DefaultUserPass: tizen
     BootLoader: True
     BootloaderAppend: "rootwait rootfstype=ext4"
     BootloaderTimeout: 0
@@ -17,7 +18,7 @@ Default:
     Desktop: None
     Repos:
         - ivi   
-    SaveRepos: False
+    SaveRepos: Falsei
     Groups:
         - Base System
         - IVI Adaptation
