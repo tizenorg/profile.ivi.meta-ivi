@@ -8,8 +8,6 @@ Default:
     Keyboard: us
     Timezone: America/Los_Angeles
     RootPass: tizen
-    DefaultUser: tizen
-    DefaultUserPass: tizen
     BootLoader: True
     BootloaderAppend: "rootwait rootfstype=ext4"
     BootloaderTimeout: 0
@@ -19,7 +17,6 @@ Default:
     Repos:
         - ivi   
     SaveRepos: False
-    UserGroups: "audio,video"
     Groups:
         - Base System
         - IVI Adaptation
@@ -32,7 +29,6 @@ Default:
 
 Wayland-i586:
     Part: ivi-mbr
-    UserGroups: "audio,video,weston-launch"
     Groups:
         - IVI Middleware
         - Wayland
@@ -43,7 +39,6 @@ Wayland-i586:
 
 Wayland-x86_64:
     Part: ivi-mbr
-    UserGroups: "audio,video,weston-launch"
     Groups:
         - IVI Middleware x86_64
         - Wayland

@@ -1,6 +1,7 @@
 Description: IVI Applications
 Name: ivi-applications
 Packages:
+- evolution-data-server
 - festival
 - GhostCluster
 - MediaPlayer

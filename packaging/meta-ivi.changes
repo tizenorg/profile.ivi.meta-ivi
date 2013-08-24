@@ -1,3 +1,10 @@
+* Sat Aug 24 01:56:57 UTC 2013 - tracy.graydon@intel.com
+- Add evolution-data-server to ivi-applications
+- Remove default user tizen line from ivi.yaml
+- Remove extraneous user groups audio,video from ivi.yaml. Done in setup/filesystem now.
+- Remove ln -s /home /opt/home from weston postscript. No longer needed.
+- Remove the extraneous audio,video groups from the app user config in the weston post script. 
+
 * Fri Aug 23 00:39:04 UTC 2013 - tracy.graydon@intel.com
 - Add syncevolution packaged to ivi-applications
 - Add which and attr to middleware patterns 
