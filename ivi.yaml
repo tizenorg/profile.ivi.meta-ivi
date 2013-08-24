@@ -7,6 +7,7 @@ Default:
     Language: en_US.UTF-8
     Keyboard: us
     Timezone: America/Los_Angeles
+    DefaultUser: app
     RootPass: tizen
     BootLoader: True
     BootloaderAppend: "rootwait rootfstype=ext4"
