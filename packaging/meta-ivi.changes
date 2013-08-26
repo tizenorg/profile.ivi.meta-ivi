@@ -1,3 +1,6 @@
+* Mon Aug 26 20:52:30 UTC 2013 - tracy.graydon@intel.com
+- Restore the default tizen user and the audio,video groups.  
+
 * Sat Aug 24 01:56:57 UTC 2013 - tracy.graydon@intel.com
 - Add evolution-data-server to ivi-applications
 - Remove default user tizen line from ivi.yaml
