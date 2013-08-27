@@ -1,11 +1,8 @@
-# Create sym link to work around hardcoded assumptions about home directories
-ln -s /home /opt/home
-
 # Initialize the native application database
 pkg_initdb
 
 # Create the 'app' user
-/usr/sbin/useradd -u 5000 -g users -G audio,video,weston-launch -m app
+/usr/sbin/usermod -u 5000 -g users -G audio,video,weston-launch
 
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
