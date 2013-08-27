@@ -20,7 +20,6 @@ Packages:
 - gupnp-dlna
 - iptables
 - lemolo
-- libgee
 - libprivilege-control-conf
 - libva-intel-driver
 - media-data-sdk

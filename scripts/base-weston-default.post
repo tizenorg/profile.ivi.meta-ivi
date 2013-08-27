@@ -2,7 +2,7 @@
 pkg_initdb
 
 # Add app user to weston-launch group
-/usr/sbin/usermod app -g users -G weston-launch
+/usr/sbin/usermod app -g users -G audio,video,weston-launch
 
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
