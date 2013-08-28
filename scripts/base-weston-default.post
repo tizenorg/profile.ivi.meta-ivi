@@ -1,8 +1,11 @@
 # Initialize the native application database
 pkg_initdb
 
-# Create the 'app' user
-/usr/sbin/usermod app -g users -G audio,video,weston-launch
+# Add 'app' user to the weston-launch group
+/usr/sbin/groupmod -A app weston-launch
+
+# Temporary work around for bug in filesystem package resulting in the 'app' user home
+# directory being only readable by root
 chown -R app:app /opt/home/app
 
 # base-weston-default.post
