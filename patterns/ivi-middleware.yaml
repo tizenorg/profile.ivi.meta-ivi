@@ -41,6 +41,8 @@ Packages:
 - pulseaudio-utils
 - rygel
 - sdbd
+- smartdevicelink
+- smartdevicelink-sample-hmi
 - which
 - wpa_supplicant
 - wrt

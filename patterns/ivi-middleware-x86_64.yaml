@@ -39,6 +39,8 @@ Packages:
 - pulseaudio-module-bluetooth
 - pulseaudio-module-murphy-ivi
 - pulseaudio-utils
+- smartdevicelink
+- smartdevicelink-sample-hmi
 - rygel
 - wpa_supplicant
 - wrt
