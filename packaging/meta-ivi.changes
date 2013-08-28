@@ -1,3 +1,7 @@
+* Wed Aug 28 01:13:34 UTC 2013 - tracy.graydon@intel.com
+- Usermod app user into audio,video,weston-launch groups in weston postscript
+- chmod -R app:app /opt/home/app to fix ui not starting.  
+
 * Tue Aug 27 00:00:15 UTC 2013 - tracy.graydon@intel.com
 - Add audio, video groups back to the base-weston postscript  
 

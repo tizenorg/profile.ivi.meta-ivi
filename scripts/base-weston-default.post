@@ -3,6 +3,7 @@ pkg_initdb
 
 # Create the 'app' user
 /usr/sbin/usermod app -g users -G audio,video,weston-launch
+chown -R app:app /opt/home/app
 
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
