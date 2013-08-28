@@ -6,6 +6,7 @@ Packages:
 - GhostCluster
 - MediaPlayer
 - pocketsphinx
+- Settings
 - sphinxbase
 - syncevolution
 - syncevolution-devel        
