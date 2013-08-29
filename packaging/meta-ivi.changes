@@ -1,3 +1,6 @@
+* Thu Aug 29 20:18:50 UTC 2013 - tracy.graydon@intel.com
+- Remove SmartDeviceLink packages from ivi-middleware-x86_64.yaml. SmartDeviceLink fails to build for x86_64 
+
 * Thu Aug 29 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130828.200333@376389b
 - Install SmartDeviceLink packages in IVI image by default.
 
