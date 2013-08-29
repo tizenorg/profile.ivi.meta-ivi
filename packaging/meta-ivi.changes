@@ -1,3 +1,6 @@
+* Thu Aug 29 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130828.200333@376389b
+- Install SmartDeviceLink packages in IVI image by default.
+
 * Wed Aug 28 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130828.011536@0101afc
 - TIVI-1658: Fix command for adding the app user to the weston-launcher group
 
