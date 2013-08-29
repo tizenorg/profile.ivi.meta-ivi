@@ -1,6 +1,6 @@
 Name: IVI Release EFI x86_64
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland-x86_64
 Part: ivi-efi
 FileName: ivi-release-efi-x86_64
