@@ -2,5 +2,4 @@ Description: IVI Packaging
 Name: ivi-packaging
 Packages:
 - zypper
-- yum
 Summary: IVI Packaging
