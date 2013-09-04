@@ -1,3 +1,6 @@
+* Wed Sep  4 21:01:41 UTC 2013 - tracy.graydon@intel.com
+- Temporarily remove the syncevolution packages that are broken due to toolchain updates 
+
 * Thu Aug 29 22:37:19 UTC 2013 - tracy.graydon@intel.com
 - turn off x86_86 images 
 

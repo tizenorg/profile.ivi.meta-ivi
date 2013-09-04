@@ -8,12 +8,14 @@ Packages:
 - pocketsphinx
 - Settings
 - sphinxbase
-- syncevolution
-- syncevolution-devel        
-- syncevolution-ebook        
-- syncevolution-ecal        
-- syncevolution-pbap         
-- syncevolution-phone-config 
-- syncevolution-synccompare 
 - webkit2-efl-test
 Summary: IVI Applications
+
+#syncevolution
+#syncevolution-devel        
+#syncevolution-ebook        
+#syncevolution-ecal        
+#syncevolution-pbap         
+#syncevolution-phone-config 
+#syncevolution-synccompare 
+
