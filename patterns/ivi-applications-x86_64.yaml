@@ -1,6 +1,0 @@
-Description: IVI Applications x86_64
-Name: ivi-applications-x86_64
-Packages:
-- MediaPlayer
-- webkit2-efl-test
-Summary: IVI Applications x86_64

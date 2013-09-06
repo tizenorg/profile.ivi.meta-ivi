@@ -33,6 +33,7 @@ Packages:
 - obexd-client
 - obexd-server
 - ofono
+- openavb
 - pulseaudio
 - pulseaudio-config
 - pulseaudio-locale

@@ -1,10 +1,12 @@
 Description: IVI Applications
 Name: ivi-applications
 Packages:
-- evolution-data-server
-- festival
 - GhostCluster
 - MediaPlayer
+- ca-certificates
+- ca-certificates-mozilla
+- evolution-data-server
+- festival
 - pocketsphinx
 - Settings
 - sphinxbase
@@ -12,7 +14,6 @@ Packages:
 Summary: IVI Applications
 
 #syncevolution
-#syncevolution-devel        
 #syncevolution-ebook        
 #syncevolution-ecal        
 #syncevolution-pbap         

@@ -1,3 +1,9 @@
+* Fri Sep  6 20:18:29 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1662: Add ca-certificates and ca-certificates-mozilla to ivi-applications
+
+* Fri Sep  6 20:06:46 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1664: Integrate openavb; added to ivi-middleware.yaml 
+
 * Wed Sep  4 21:01:41 UTC 2013 - tracy.graydon@intel.com
 - Temporarily remove the syncevolution packages that are broken due to toolchain updates 
 
