@@ -1,3 +1,6 @@
+*Fri Sep 13 06:50:54 UTC 2013 - tracy.graydon@intel.com
+- Drop openavb and zypper temporarily until they are resolvable by mic
+
 * Fri Sep  6 20:18:29 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1662: Add ca-certificates and ca-certificates-mozilla to ivi-applications
 
