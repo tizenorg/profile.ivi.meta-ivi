@@ -1,5 +1,5 @@
 Description: IVI Packaging
 Name: ivi-packaging
 Packages:
-#- zypper
+- zypper
 Summary: IVI Packaging
