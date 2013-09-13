@@ -10,8 +10,6 @@ Kernel: kernel-x86-ivi
 ExtraPackages:
     - ivi-repos
     - setup-efi-ivi
-RemovePackages:
-    - zypper
 PostScripts:
     - base-ivi-minimal
     - efi

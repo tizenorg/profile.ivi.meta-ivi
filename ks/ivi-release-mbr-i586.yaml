@@ -6,7 +6,5 @@ Part: ivi-mbr
 Mic2Options: -f raw --fstab=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap
 FileName: ivi-release-mbr-i586
 Kernel: kernel-x86-ivi
-RemovePackages:
-    - zypper
 ExtraPackages:
     - release-repos

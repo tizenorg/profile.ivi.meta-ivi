@@ -7,7 +7,5 @@ FileName: ivi-min-mbr-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - ivi-repos
-RemovePackages:
-    - zypper
 PostScripts:
     - base-ivi-minimal

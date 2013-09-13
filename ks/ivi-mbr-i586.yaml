@@ -7,5 +7,3 @@ FileName: ivi-mbr-i586
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - ivi-repos
-RemovePackages:
-    - zypper
