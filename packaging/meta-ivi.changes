@@ -1,3 +1,7 @@
+* Fri Sep 13 23:26:43 UTC 2013 - tracy.graydon@intel.com
+- Add zypper, openavb, saythis to patterns.
+- Undue the ivi-console-tools workaround for zypper 
+
 *Fri Sep 13 06:50:54 UTC 2013 - tracy.graydon@intel.com
 - Drop openavb and zypper temporarily until they are resolvable by mic
 

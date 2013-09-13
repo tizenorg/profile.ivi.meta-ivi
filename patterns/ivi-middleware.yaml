@@ -33,6 +33,7 @@ Packages:
 - obexd-client
 - obexd-server
 - ofono
+- openavb
 - pulseaudio
 - pulseaudio-config
 - pulseaudio-locale
@@ -48,4 +49,5 @@ Packages:
 - wrt
 - wrt-installer
 - wrt-plugins-tizen
+- zypper
 Summary: IVI Middleware

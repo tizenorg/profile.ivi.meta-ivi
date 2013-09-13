@@ -23,6 +23,7 @@ Default:
     Groups:
         - Base System
         - IVI Adaptation
+        - IVI Packaging
     PostScripts:
         - base-general
         - rpm
@@ -35,7 +36,7 @@ Wayland-i586:
     Groups:
         - IVI Middleware
         - Wayland
-        - IVI Console Tools
+        - Console Tools
         - IVI Applications
     PostScripts:
         - base-weston-default
@@ -46,7 +47,7 @@ Wayland-x86_64:
     Groups:
         - IVI Middleware x86_64
         - Wayland
-        - IVI Console Tools
+        - Console Tools
         - IVI Applications x86_64
     PostScripts:
         - base-weston-default

@@ -2,13 +2,14 @@ Description: IVI Applications
 Name: ivi-applications
 Packages:
 - GhostCluster
+- Settings
 - MediaPlayer
 - ca-certificates
 - ca-certificates-mozilla
 - evolution-data-server
 - festival
 - pocketsphinx
-- Settings
+- saythis
 - sphinxbase
 - webkit2-efl-test
 Summary: IVI Applications
