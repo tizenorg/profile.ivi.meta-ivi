@@ -8,6 +8,10 @@ Packages:
 - ca-certificates-mozilla
 - evolution-data-server
 - festival
+- ico-uxf-homescreen
+- ico-uxf-utilities
+- ico-uxf-weston-plugin
+- ico-vic-amb-plugin
 - pocketsphinx
 - saythis
 - sphinxbase
