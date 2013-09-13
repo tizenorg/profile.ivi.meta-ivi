@@ -50,4 +50,5 @@ Packages:
 - wrt-installer
 - wrt-plugins-tizen
 - zypper
+- notification-service
 Summary: IVI Middleware
