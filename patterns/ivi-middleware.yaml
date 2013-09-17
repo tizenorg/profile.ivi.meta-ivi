@@ -36,6 +36,7 @@ Packages:
 - obexd-server
 - ofono
 - openavb
+- pkgmgr-server
 - pulseaudio
 - pulseaudio-config
 - pulseaudio-locale
