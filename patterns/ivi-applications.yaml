@@ -6,7 +6,6 @@ Packages:
 - MediaPlayer
 - ca-certificates
 - ca-certificates-mozilla
-- evolution-data-server
 - festival
 - ico-uxf-homescreen
 - ico-uxf-utilities
@@ -17,11 +16,3 @@ Packages:
 - sphinxbase
 - webkit2-efl-test
 Summary: IVI Applications
-
-#syncevolution
-#syncevolution-ebook        
-#syncevolution-ecal        
-#syncevolution-pbap         
-#syncevolution-phone-config 
-#syncevolution-synccompare 
-
