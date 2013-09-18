@@ -1,0 +1,1 @@
+part / --size 3900 --ondisk sdb --fstype=ext4 --label platform --align 1024

@@ -1,6 +1,9 @@
 * Fri Sep 20 00:00:13 UTC 2013 - tracy.graydon@intel.com
 - Add quiet option to boot options 
 
+* Wed Sep 18 22:49:04 UTC 2013 - tracy.graydon@intel.com
+- TINF-263: enable IVI emulator image 
+
 * Fri Sep 13 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130913.232802@aa5ca1b
 - Add the ivi notification-service to the ivi-middleware group
 

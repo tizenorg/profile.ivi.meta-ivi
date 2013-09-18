@@ -1,0 +1,12 @@
+Name: IVI MBR i586 Emul
+Schedule: "*"
+Active: True
+Platform: Wayland-i586
+Part: ivi-emul
+FileName: ivi-mbr-i586-emul
+Kernel: kernel-x86-ivi
+ExtraPackages:
+    - ivi-repos
+    - system-plugin-emulator
+RemovePackages:
+    - openssh
