@@ -1,3 +1,6 @@
+* Wed Sep 18 22:49:04 UTC 2013 - tracy.graydon@intel.com
+- TINF-263: enable IVI emulator image 
+
 * Wed Sep 18 2013 Artem Bityutskiy <artem.bityutskiy@linux.intel.com> submit/tizen/20130917.231525@46fd8a4
 - Start using new "bootloader" keyword instead of the depricated "extlinux".
 
