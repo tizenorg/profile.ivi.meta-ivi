@@ -1,3 +1,6 @@
+* Wed Sep 18 2013 Artem Bityutskiy <artem.bityutskiy@linux.intel.com> submit/tizen/20130917.231525@46fd8a4
+- Start using new "bootloader" keyword instead of the depricated "extlinux".
+
 * Fri Sep 13 2013 Rusty Lynch <rusty.lynch@intel.com> submit/tizen/20130913.232802@aa5ca1b
 - Add the ivi notification-service to the ivi-middleware group
 
