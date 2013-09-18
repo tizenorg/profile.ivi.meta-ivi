@@ -3,7 +3,7 @@ Schedule: "*"
 Active: True
 Platform: Wayland-i586
 InstallerFrameworkPlugins: 
-    - extlinux
+    - bootloader
 Part: ivi-efi
 FileName: ivi-efi-i586
 Kernel: kernel-x86-ivi

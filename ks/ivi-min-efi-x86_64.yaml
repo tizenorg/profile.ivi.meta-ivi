@@ -3,7 +3,7 @@ Schedule: "*"
 Active: False
 Platform: Default
 InstallerFrameworkPlugins: 
-    - extlinux
+    - bootloader
 Part: ivi-efi
 FileName: ivi-min-efi-x86_64
 Architecture: x86_64

@@ -5,7 +5,7 @@ Platform: Wayland-x86_64
 Part: ivi-efi
 FileName: ivi-release-efi-x86_64
 InstallerFrameworkPlugins: 
-    - extlinux
+    - bootloader
 Architecture: x86_64
 Kernel: kernel-adaptation-pc
 ExtraPackages:

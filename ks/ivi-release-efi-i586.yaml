@@ -5,7 +5,7 @@ Platform: Wayland-i586
 Part: ivi-efi
 FileName: ivi-release-efi-i586
 InstallerFrameworkPlugins: 
-    - extlinux
+    - bootloader
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos
