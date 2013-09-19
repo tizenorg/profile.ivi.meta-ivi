@@ -11,7 +11,7 @@ Default:
     DefaultUser: tizen
     DefaultUserPass: tizen
     BootLoader: True
-    BootloaderAppend: "rootwait rootfstype=ext4"
+    BootloaderAppend: "rootwait rootfstype=ext4 quiet"
     BootloaderTimeout: 0
     BootloaderOptions: "--ptable=gpt"
     StartX: False
