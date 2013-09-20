@@ -42,6 +42,7 @@ Packages:
 - pulseaudio-module-bluetooth
 - pulseaudio-module-murphy-ivi
 - pulseaudio-utils
+- psplash
 - rygel
 - sdbd
 - smartdevicelink
