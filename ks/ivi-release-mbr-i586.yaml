@@ -1,6 +1,6 @@
 Name: IVI Release MBR i586
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland-i586
 Part: ivi-mbr
 Mic2Options: -f raw --fstab=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap
