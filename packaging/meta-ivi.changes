@@ -1,3 +1,6 @@
+* Wed Sep 25 00:03:21 UTC 2013 - tracy.graydon@intel.com
+- Disable the non-release images. 
+
 * Fri Sep 20 00:00:13 UTC 2013 - tracy.graydon@intel.com
 - Add quiet option to boot options 
 

@@ -1,6 +1,6 @@
 Name: IVI MBR i586 Emul
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland-i586
 Part: ivi-emul
 FileName: ivi-mbr-i586-emul
