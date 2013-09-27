@@ -1,3 +1,6 @@
+* Fri Sep 27 20:57:53 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1673: add ico-uxf-device-input-controller and ico-vi-carsimulator to ivi-applications 
+
 * Wed Sep 25 00:03:21 UTC 2013 - tracy.graydon@intel.com
 - Disable the non-release images. 
 
