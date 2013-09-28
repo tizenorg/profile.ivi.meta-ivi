@@ -1,6 +1,7 @@
 Name: IVI MBR i586 Emul
 Schedule: "*"
 Active: True
+Mic2Options: -f loop --pack-to=@NAME@.tar.gz
 Platform: Wayland-i586
 Part: ivi-emul
 FileName: ivi-mbr-i586-emul
