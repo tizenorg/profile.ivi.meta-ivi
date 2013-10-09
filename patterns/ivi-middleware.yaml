@@ -3,7 +3,6 @@ Name: ivi-middleware
 Packages:
 - alsa-utils
 - automotive-message-broker
-- attr
 - bluez
 - csr-framework
 - dleyna
@@ -51,7 +50,6 @@ Packages:
 - syncevolution
 - syncevolution-ebook
 - syncevolution-pbap
-- which
 - wpa_supplicant
 - wrt
 - wrt-installer

@@ -1,3 +1,6 @@
+* Thu Oct  3 22:38:05 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1557: attr and which are already in meta-common. Removing from ivi-middleware.
+
 * Sat Sep 28 01:02:07 UTC 2013 - tracy.graydon@intel.com
 - TINF-287: update the mic options for the emulator image
 - TIVI-1673: add ico-uxf-input-controller and ico-vic-carsimulator to ivi-applications
