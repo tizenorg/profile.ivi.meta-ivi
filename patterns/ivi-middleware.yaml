@@ -1,6 +1,7 @@
 Description: IVI Middleware
 Name: ivi-middleware
 Packages:
+- ail
 - alsa-utils
 - automotive-message-broker
 - bluez
