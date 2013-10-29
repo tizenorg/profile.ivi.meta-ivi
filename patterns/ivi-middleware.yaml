@@ -6,6 +6,8 @@ Packages:
 - bluez
 - csr-framework
 - dleyna
+- e17-misc
+- efl-theme-tizen-hd
 - evolution-data-server
 - gdb-server
 - gst-libav
