@@ -55,6 +55,7 @@ Packages:
 - wpa_supplicant
 - wrt
 - wrt-installer
+- wrt-installer-preinstall-service
 - wrt-plugins-tizen
 - zypper
 Summary: IVI Middleware
