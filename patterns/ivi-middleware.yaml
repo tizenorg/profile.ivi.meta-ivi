@@ -34,8 +34,6 @@ Packages:
 - net-config
 - notification-service
 - obexd
-- obexd-client
-- obexd-server
 - ofono
 - openavb
 - pkgmgr-server
