@@ -5,5 +5,7 @@ Platform: Wayland-i586
 Part: ivi-mbr
 FileName: ivi-mbr-i586
 Kernel: kernel-x86-ivi
+Repos:
+    - ivi
 ExtraPackages:
     - ivi-repos

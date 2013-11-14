@@ -7,4 +7,4 @@ FileName: ivi-mbr-testing
 Kernel: kernel-x86-ivi
 Repos:
     - ivi-testing
-SAveRepos: true      
+SaveRepos: true      

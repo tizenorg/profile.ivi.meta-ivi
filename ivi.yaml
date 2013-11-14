@@ -16,8 +16,6 @@ Default:
     BootloaderOptions: "--ptable=gpt"
     StartX: False
     Desktop: None
-    Repos:
-        - ivi   
     SaveRepos: False
     UserGroups: "audio,video"
     Groups:

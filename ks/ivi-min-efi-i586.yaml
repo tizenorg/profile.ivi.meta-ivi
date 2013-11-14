@@ -7,6 +7,8 @@ InstallerFrameworkPlugins:
 Part: ivi-efi
 FileName: ivi-min-efi-i586
 Kernel: kernel-x86-ivi
+Repos:
+    - ivi
 ExtraPackages:
     - ivi-repos
     - setup-efi-ivi
