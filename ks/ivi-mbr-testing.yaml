@@ -1,0 +1,10 @@
+Name: IVI MBR Testing
+Schedule: "*"
+Active: True
+Platform: Wayland-i586
+Part: ivi-mbr
+FileName: ivi-mbr-testing
+Kernel: kernel-x86-ivi
+Repos:
+    - ivi-testing
+SAveRepos: true      
