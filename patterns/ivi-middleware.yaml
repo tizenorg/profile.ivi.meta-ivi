@@ -5,6 +5,7 @@ Packages:
 - automotive-message-broker
 - bluez
 - csr-framework
+- default-ac-domains
 - dleyna
 - e17-misc
 - elm-misc
