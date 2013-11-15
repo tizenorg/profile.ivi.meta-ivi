@@ -13,3 +13,4 @@ ExtraPackages:
     - system-plugin-emulator
 RemovePackages:
     - openssh
+    - sdbd
