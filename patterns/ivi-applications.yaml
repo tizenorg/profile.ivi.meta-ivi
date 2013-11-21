@@ -10,7 +10,6 @@ Packages:
 - ico-uxf-homescreen
 - ico-uxf-device-input-controller
 - ico-uxf-utilities
-- ico-uxf-weston-plugin
 - ico-vic-amb-plugin
 - ico-vic-carsimulator
 - pocketsphinx
