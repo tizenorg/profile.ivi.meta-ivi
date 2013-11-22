@@ -40,6 +40,8 @@ Wayland-i586:
         - IVI Applications
     PostScripts:
         - base-weston-default
+        - vconf-keys-default.post
+
 
 Wayland-x86_64:
     Part: ivi-mbr
@@ -51,3 +53,4 @@ Wayland-x86_64:
         - IVI Applications x86_64
     PostScripts:
         - base-weston-default
+        - vconf-keys-default.post
