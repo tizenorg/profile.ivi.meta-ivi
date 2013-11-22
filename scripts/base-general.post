@@ -4,3 +4,6 @@ ln -sf /proc/self/mounts /etc/mtab
 
 rm -rf /root/.zypp
 
+# needed by WRT (TIVI-2017)
+chmod 777 /opt/usr/media
+chmod 777 /opt/usr/share/settings
