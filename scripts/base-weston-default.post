@@ -8,6 +8,10 @@ pkg_initdb
 # directory being only readable by root
 chown -R app:app /opt/home/app
 
+# Since weston-launch runs with the "User" label, the app
+# home dir must have the same label
+chsmack -a User /opt/home/app
+
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
 ln -sf ../user-session@.service /usr/lib/systemd/system/graphical.target.wants/user-session@5000.service
