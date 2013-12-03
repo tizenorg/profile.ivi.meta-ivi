@@ -14,7 +14,6 @@ chsmack -a User /opt/home/app
 
 # base-weston-default.post
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
-ln -sf ../user-session@.service /usr/lib/systemd/system/graphical.target.wants/user-session@5000.service
 ln -sf weston.target  /usr/lib/systemd/user/default.target
 
 # Add over-riding environment to enable the web runtime to
