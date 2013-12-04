@@ -1,3 +1,6 @@
+* Wed Dec 4 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> 2dddf8f
+- Enable linger for the app user
+
 * Wed Dec  4 00:36:24 UTC 2013 - tracy.graydon@intel.com
 - TIVI-2246: add udisks-automount-agent to ivi-middleware pattern
 - this in turn should pull in libatasmart and udisks dependencies 

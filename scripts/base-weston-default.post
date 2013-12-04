@@ -16,6 +16,10 @@ chsmack -a User /opt/home/app
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
 ln -sf weston.target  /usr/lib/systemd/user/default.target
 
+# Enable user@5000.service by setting the linger for user 'app'
+mkdir -p /var/lib/systemd/linger
+touch /var/lib/systemd/linger/app
+
 # Add over-riding environment to enable the web runtime to
 # run on an IVI image as a different user then the tizen user
 # Some notes on some of the variables:
