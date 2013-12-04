@@ -1,3 +1,7 @@
+* Wed Dec  4 00:36:24 UTC 2013 - tracy.graydon@intel.com
+- TIVI-2246: add udisks-automount-agent to ivi-middleware pattern
+- this in turn should pull in libatasmart and udisks dependencies 
+
 * Fri Nov 22 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> fec3e72
 - Fix Smack label on "app" home directory
 

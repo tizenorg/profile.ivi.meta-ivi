@@ -51,6 +51,7 @@ Packages:
 - syncevolution
 - syncevolution-ebook
 - syncevolution-pbap
+- udisks-automount-agent 
 - wpa_supplicant
 - wrt
 - wrt-installer
