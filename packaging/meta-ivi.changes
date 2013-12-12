@@ -1,3 +1,6 @@
+* Thu Dec 12 2013 Jimmy Huang <jimmy.huang@intel.com> accepted/tizen/20131207.002820@9878b8b
+- Fixes TIVI-2279, fonts missing for other languages
+
 * Wed Dec 4 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> 2dddf8f
 - Enable linger for the app user
 
