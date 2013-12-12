@@ -2,6 +2,8 @@ Name: IVI Minimal MBR i586
 Schedule: "*"
 Active: True
 Platform: Default
+InstallerFrameworkPlugins:
+    - bootloader
 Part: ivi-mbr
 FileName: ivi-min-mbr-i586
 Kernel: kernel-x86-ivi
@@ -9,5 +11,7 @@ Repos:
     - ivi        
 ExtraPackages:
     - ivi-repos
+    - setup-mbr-ivi
 PostScripts:
     - base-ivi-minimal
+    - efi
