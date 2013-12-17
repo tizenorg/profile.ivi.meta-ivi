@@ -14,4 +14,4 @@ ExtraPackages:
     - setup-mbr-ivi
 PostScripts:
     - base-ivi-minimal
-    - efi
+    - mbr

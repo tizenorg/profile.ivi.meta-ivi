@@ -13,4 +13,4 @@ ExtraPackages:
     - ivi-repos
     - setup-mbr-ivi
 PostScripts:
-    - efi
+    - mbr
