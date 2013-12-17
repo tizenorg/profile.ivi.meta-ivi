@@ -1,3 +1,7 @@
+* Tue Dec 17 2013 Geoffroy Van Cutsem <geoffroy.vancutsem@intel.com> submit/tizen/20131217.061533@d146b3a
+- Stop installing the ico components in default images
+- ks: start using setup-mbr-ivi
+
 * Wed Dec 4 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> 2dddf8f
 - Enable linger for the app user
 
