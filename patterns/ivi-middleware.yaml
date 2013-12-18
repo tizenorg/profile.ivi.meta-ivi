@@ -54,6 +54,7 @@ Packages:
 - syncevolution-pbap
 - udisks-automount-agent 
 - wpa_supplicant
+- weston-meta-ivi
 - wrt
 - wrt-installer
 - wrt-installer-preinstall-service
