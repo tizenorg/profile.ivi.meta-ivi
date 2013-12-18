@@ -12,13 +12,11 @@ chown -R app:app /opt/home/app
 # home dir must have the same label
 chsmack -a User /opt/home/app
 
-# base-weston-default.post
+# Enable a logind session for 'app' user on seat0 (the default seat for
+# graphical sessions)
 mkdir -p /usr/lib/systemd/system/graphical.target.wants
+ln -s ../user-session-launch@.service /usr/lib/systemd/system/graphical.target.wants/user-session-launch@seat0-5000.service
 ln -sf weston.target  /usr/lib/systemd/user/default.target
-
-# Enable user@5000.service by setting the linger for user 'app'
-mkdir -p /var/lib/systemd/linger
-touch /var/lib/systemd/linger/app
 
 # Add over-riding environment to enable the web runtime to
 # run on an IVI image as a different user then the tizen user
