@@ -1,3 +1,7 @@
+* Wed Dec 18 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> 19afef0
+- Disable linger workaround; enable the new logind session service.  This fixes
+  numerous IVI bugs, including TIVI-2215, TIVI-2270, TIVI-2383, and TIVI-2217.
+
 * Thu Dec 12 2013 Jimmy Huang <jimmy.huang@intel.com> accepted/tizen/20131207.002820@9878b8b
 - Fixes TIVI-2279, fonts missing for other languages
 
