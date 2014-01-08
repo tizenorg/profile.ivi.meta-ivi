@@ -1,3 +1,6 @@
+* Wed Jan  8 03:06:00 UTC 2014 - tracy.graydon@intel.com
+- Remove e17-misc from ivi-middleware 
+
 * Thu Dec 12 2013 Jimmy Huang <jimmy.huang@intel.com> accepted/tizen/20131207.002820@9878b8b
 - Fixes TIVI-2279, fonts missing for other languages
 
