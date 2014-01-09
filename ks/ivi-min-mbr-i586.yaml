@@ -1,6 +1,6 @@
 Name: IVI Minimal MBR i586
 Schedule: "*"
-Active: True
+Active: False
 Platform: Default
 InstallerFrameworkPlugins:
     - bootloader

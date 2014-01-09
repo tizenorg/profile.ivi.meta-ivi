@@ -1,6 +1,6 @@
 Name: IVI MBR i586
 Schedule: "*"
-Active: True
+Active: False
 Platform: Wayland-i586
 InstallerFrameworkPlugins:
     - bootloader
