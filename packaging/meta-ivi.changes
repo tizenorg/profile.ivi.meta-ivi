@@ -1,3 +1,6 @@
+* Thu Jan  9 22:29:13 UTC 2014 - tracy.graydon@intel.com
+- Disable the ico homescreen 
+
 * Thu Jan  9 00:20:05 UTC 2014 - tracy.graydon@intel.com
 - Re-enable the cio homescreen.
 - Add security=none boot option: temp workaround 
