@@ -1,3 +1,6 @@
+* Thu Jan  9 00:25:22 UTC 2014 - tracy.graydon@intel.com
+- Add security=none workaround to boot options 
+
 * Fri Sep 27 20:57:53 UTC 2013 - tracy.graydon@intel.com
 - TIVI-1673: add ico-uxf-device-input-controller and ico-vi-carsimulator to ivi-applications 
 
