@@ -1,3 +1,7 @@
+* Thu Jan  9 00:20:05 UTC 2014 - tracy.graydon@intel.com
+- Re-enable the cio homescreen.
+- Add security=none boot option: temp workaround 
+
 * Wed Jan  8 01:41:50 UTC 2014 - tracy.graydon@intel.com
 - Remove e17-misc from ivi-middleware pattern  
 
