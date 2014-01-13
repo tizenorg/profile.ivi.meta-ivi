@@ -15,4 +15,4 @@ ExtraPackages:
     - setup-extlinux
 PostScripts:
     - base-ivi-minimal
-    - mbr
+    - setup-ivi

@@ -15,4 +15,4 @@ ExtraPackages:
     - setup-gummiboot
 PostScripts:
     - base-ivi-minimal
-    - efi
+    - setup-ivi
