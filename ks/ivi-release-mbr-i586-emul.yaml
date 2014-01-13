@@ -1,0 +1,21 @@
+Name: IVI MBR i586 Emul
+Schedule: "*"
+Active: True
+Mic2Options: -f loop --pack-to=@NAME@.tar.gz
+Platform: Wayland-i586
+InstallerFrameworkPlugins:
+    - bootloader
+Part: ivi-emul
+FileName: ivi-mbr-i586-emul
+Kernel: kernel-x86-ivi
+Repos:
+    - ivi
+ExtraPackages:
+    - ivi-repos
+    - system-plugin-emulator
+    - setup-mbr-ivi
+RemovePackages:
+    - openssh
+    - sdbd
+PostScripts:
+    - mbr
