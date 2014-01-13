@@ -14,7 +14,7 @@ Repos:
 ExtraPackages:
     - ivi-repos
     - system-plugin-emulator
-    - setup-mbr-ivi
+    - setup-extlinux
 RemovePackages:
     - openssh
     - sdbd

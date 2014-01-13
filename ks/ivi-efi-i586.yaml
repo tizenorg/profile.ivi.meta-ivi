@@ -12,6 +12,6 @@ Repos:
     - ivi
 ExtraPackages:
     - ivi-repos
-    - setup-efi-ivi
+    - setup-gummiboot
 PostScripts:
     - efi
