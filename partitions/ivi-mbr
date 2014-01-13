@@ -1,2 +1,2 @@
-part /boot --size 64 --ondisk sdb --fstype=ext4 --label boot --active --align 1024
-part / --size 3748 --ondisk sdb --fstype=ext4 --label platform --align 1024
+part /boot --size 64 --ondisk sdb --fstype=ext4 --label boot --active --align 1024 --fsoptions=noatime
+part / --size 3748 --ondisk sdb --fstype=ext4 --label platform --align 1024 --fsoptions=noatime

@@ -1,1 +1,1 @@
-part / --size 3900 --ondisk sdb --fstype=ext4 --label platform --align 1024
+part / --size 3900 --ondisk sdb --fstype=ext4 --label platform --align 1024 --fsoptions=noatime
