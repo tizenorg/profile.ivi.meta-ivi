@@ -3,5 +3,5 @@ Repositories:
         Url:  http://download.tizen.org/snapshots/tizen/ivi/ivi-release/@BUILD_ID@/repos/ivi/@ARCH@/packages/
         Options: --ssl_verify=no
     -   Name: ivi-debug
-        Url:  http://download.tizen.org/snapshots/tizen/ivi/ivi-release/BUILD_ID@/repos/ivi/@ARCH@/debug/
+        Url:  http://download.tizen.org/snapshots/tizen/ivi/ivi-release/@BUILD_ID@/repos/ivi/@ARCH@/debug/
         Options: --ssl_verify=no
