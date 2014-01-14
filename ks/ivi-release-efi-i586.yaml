@@ -6,8 +6,6 @@ InstallerFrameworkPlugins:
     - bootloader
 Part: ivi-efi
 FileName: ivi-release-efi-i586
-InstallerFrameworkPlugins: 
-    - extlinux
 Kernel: kernel-x86-ivi
 ExtraPackages:
     - release-repos
