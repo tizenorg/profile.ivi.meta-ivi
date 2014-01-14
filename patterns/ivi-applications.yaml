@@ -18,4 +18,5 @@ Packages:
 - settingsd
 - sphinxbase
 - webkit2-efl-test
+- weston-ivi
 Summary: IVI Applications
