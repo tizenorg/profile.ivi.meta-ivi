@@ -26,6 +26,7 @@ Default:
         - IVI Packaging
     PostScripts:
         - base-general
+        - disable-net-config  
         - rpm
     NoChrootScripts:
         - buildname  
