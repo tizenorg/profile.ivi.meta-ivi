@@ -18,6 +18,10 @@ mkdir -p /usr/lib/systemd/system/graphical.target.wants
 ln -s ../user-session-launch@.service /usr/lib/systemd/system/graphical.target.wants/user-session-launch@seat0-5000.service
 ln -sf weston.target  /usr/lib/systemd/user/default.target
 
+# Hack to temporarily disable net-config, which collides
+# with settingsd. Related to TIVI-2569.
+rm /usr/lib/systemd/system/multi-user.target.wants/net-config.service
+
 # Add over-riding environment to enable the web runtime to
 # run on an IVI image as a different user then the tizen user
 # Some notes on some of the variables:
