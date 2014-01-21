@@ -13,5 +13,6 @@ Repos:
 ExtraPackages:
     - ivi-repos
     - setup-extlinux
+    - setup-ivi-clone
 PostScripts:
     - setup-ivi

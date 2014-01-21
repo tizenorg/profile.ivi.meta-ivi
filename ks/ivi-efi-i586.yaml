@@ -13,5 +13,6 @@ Repos:
 ExtraPackages:
     - ivi-repos
     - setup-gummiboot
+    - setup-ivi-clone
 PostScripts:
     - setup-ivi

@@ -15,6 +15,7 @@ ExtraPackages:
     - ivi-repos
     - system-plugin-emulator
     - setup-extlinux
+    - setup-ivi-clone
 RemovePackages:
     - openssh
     - sdbd
