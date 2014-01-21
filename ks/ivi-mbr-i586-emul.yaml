@@ -19,4 +19,4 @@ RemovePackages:
     - openssh
     - sdbd
 PostScripts:
-    - mbr
+    - setup-ivi
