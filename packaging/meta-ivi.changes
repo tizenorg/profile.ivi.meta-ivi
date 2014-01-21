@@ -1,3 +1,7 @@
+* Tue Jan 21 2014 Artem Bityutskiy <artem.bityutskiy@linux.intel.com> accepted/tizen/ivi/20140117.230858@1586e23
+- Switch Tizen IVI to start using the 'setup-ivi' project, see
+  https://wiki.tizen.org/wiki/IVI/artem-setup-ivi
+
 * Thu Jan  9 22:30:46 UTC 2014 - tracy.graydon@intel.com
 - Disable the ico homescreen 
 
