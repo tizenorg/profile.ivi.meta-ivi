@@ -4,6 +4,7 @@ Active: True
 Platform: Default
 InstallerFrameworkPlugins:
     - bootloader
+    - fstab
 Part: ivi-mbr
 FileName: ivi-min-mbr-i586
 Kernel: kernel-x86-ivi
