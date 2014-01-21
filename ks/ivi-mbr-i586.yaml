@@ -12,6 +12,6 @@ Repos:
     - ivi
 ExtraPackages:
     - ivi-repos
-    - setup-mbr-ivi
+    - setup-extlinux
 PostScripts:
     - mbr
