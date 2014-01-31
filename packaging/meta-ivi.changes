@@ -1,3 +1,8 @@
+* Fri Jan 31 22:28:59 UTC 2014 - tracy.graydon@intel.com
+- Temporarily disable images for Release project
+- This is so we can benchmark world rebuild times without generating extraneous images 
+- Also removed ssl_verify=no from ivi-repos.yaml. No longer need that option
+
 * Thu Jan  9 00:20:05 UTC 2014 - tracy.graydon@intel.com
 - Re-enable the cio homescreen.
 - Add security=none boot option: temp workaround 
