@@ -12,6 +12,7 @@ Repos:
     - ivi
 ExtraPackages:
     - ivi-repos
+    - gummiboot-splash
     - setup-gummiboot
     - setup-ivi-clone
 PostScripts:
