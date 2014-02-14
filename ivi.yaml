@@ -16,8 +16,6 @@ Default:
     BootloaderOptions: "--ptable=gpt"
     StartX: False
     Desktop: None
-    Repos:
-        - ivi     
     SaveRepos: False
     UserGroups: "audio,video"
     Groups:
@@ -42,6 +40,8 @@ Wayland-i586:
     PostScripts:
         - base-weston-default
         - vconf-keys-default
+    Repos:
+        - ivi
 
 
 Wayland-x86_64:
@@ -55,3 +55,19 @@ Wayland-x86_64:
     PostScripts:
         - base-weston-default
         - vconf-keys-default
+    Repos:
+        - ivi
+
+Wayland-i586-JJ:
+    Part: ivi-mbr
+    UserGroups: "audio,video,weston-launch"
+    Groups:
+        - IVI Middleware
+        - Wayland
+        - Console Tools
+        - IVI Applications
+    PostScripts:
+        - base-weston-default
+        - vconf-keys-default
+    Repos: []
+
