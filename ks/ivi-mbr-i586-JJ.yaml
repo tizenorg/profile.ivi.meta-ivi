@@ -1,0 +1,18 @@
+Name: IVI MBR i586
+Schedule: " "
+Active: True
+Platform: Wayland-i586-JJ
+InstallerFrameworkPlugins:
+    - bootloader
+    - fstab
+Part: ivi-mbr
+FileName: ivi-mbr-i586-JJ
+Kernel: kernel-x86-ivi
+Repos:
+    - ivi-standard
+ExtraPackages:
+    - ivi-repos
+    - setup-extlinux
+    - setup-ivi-clone
+PostScripts:
+    - setup-ivi

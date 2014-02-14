@@ -5,3 +5,7 @@ Repositories:
     -   Name: ivi-debug
         Url:  https://download.tizen.org/snapshots/tizen/ivi/@ivi/BUILD_ID@/repos/ivi/@ARCH@/debug/
         Options:
+
+    -   Name: ivi-standard
+        Url:  https://download.tizen.org/.snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/standard/packages/
+        Options:
