@@ -26,6 +26,7 @@ Packages:
 - lemolo
 - libprivilege-control-conf
 - libva-intel-driver
+- lightmediascanner
 - media-data-sdk
 - model-config-ivi
 - murphy
