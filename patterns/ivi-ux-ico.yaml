@@ -1,0 +1,11 @@
+Description: IVI UX ICO Homescreen
+Name: ivi-ux-ico
+Packages:
+- weston-ivi
+- ico-uxf-homescreen
+- ico-uxf-device-input-controller
+- ico-uxf-utilities
+- ico-uxf-weston-plugin
+- ico-vic-amb-plugin
+- ico-vic-carsimulator
+Summary: IVI UX ICO Homescreen
