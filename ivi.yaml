@@ -35,7 +35,7 @@ Wayland-i586:
     Groups:
         - IVI Middleware
         - Wayland
-	- IVI UX Weston
+        - IVI UX Weston
         - Console Tools
         - IVI Applications
     PostScripts:
