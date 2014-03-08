@@ -1,3 +1,6 @@
+* Sat Mar  8 22:35:12 UTC 2014 - tracy.graydon@intel.com
+- Change gst-libav to gst-ffmpeg0.10 in ivi-middleware.yaml
+
 * Tue Mar  4 23:04:38 UTC 2014 - tracy.graydon@intel.com
 - Fix spacing issue in ivi.yaml causing image-configurations package to fail 
 
