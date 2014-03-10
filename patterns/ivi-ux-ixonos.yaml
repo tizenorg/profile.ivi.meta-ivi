@@ -1,0 +1,16 @@
+Description: IVI UX IXONOS
+Name: ivi-ux-ixonos
+Packages:
+- html5_UI_AMBSimulator
+- html5_UI_Appmanager
+- html5_UI_Common
+- html5_UI_Dashboard
+- html5_UI_Homescreen
+- html5_UI_Hvac
+- html5_UI_Multimediaplayer
+- html5_UI_Nav
+- html5_UI_SDL
+- wrt-plugins-ivi-phone
+- phoned
+- wrt-plugins-tizen-bt
+Summary: IVI UX IXONOS
