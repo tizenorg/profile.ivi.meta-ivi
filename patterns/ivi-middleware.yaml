@@ -9,7 +9,7 @@ Packages:
 - dleyna
 - evolution-data-server
 - gdb-server
-- gst-libav
+- gst-ffmpeg0.10
 - gst-plugins-bad
 - gst-plugins-base
 - gst-plugins-good
