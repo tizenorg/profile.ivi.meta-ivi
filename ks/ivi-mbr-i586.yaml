@@ -1,6 +1,6 @@
 Name: IVI MBR i586
 Schedule: "*"
-Active: False
+Active: True
 Platform: Wayland-i586
 Part: ivi-mbr
 FileName: ivi-mbr-i586
