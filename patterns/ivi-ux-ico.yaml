@@ -3,6 +3,7 @@ Name: ivi-ux-ico
 Packages:
 - weston-ivi
 - ico-uxf-homescreen
+- ico-uxf-homescreen-sample-apps
 - ico-uxf-device-input-controller
 - ico-uxf-utilities
 - ico-uxf-weston-plugin
