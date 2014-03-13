@@ -12,7 +12,7 @@ Packages:
 - evolution-data-server
 - gdb-server
 - google-droid-fonts
-- gst-ffmpeg0.10
+- gst-libav
 - gst-plugins-bad
 - gst-plugins-base
 - gst-plugins-good
