@@ -1,23 +1,21 @@
-Name: IVI MBR i586 Emul
+Name: IVI Release MBR i586 Emul
 Schedule: "*"
-Active: True
+Active: False
 Mic2Options: -f loop --pack-to=@NAME@.tar.gz
 Platform: Wayland-i586
 InstallerFrameworkPlugins:
     - bootloader
-    - fstab
 Part: ivi-emul
-FileName: ivi-mbr-i586-emul
+FileName: ivi-release-mbr-i586-emul
 Kernel: kernel-x86-ivi
 Repos:
     - ivi
 ExtraPackages:
-    - ivi-repos
+    - release-repos
     - system-plugin-emulator
-    - setup-extlinux
-    - setup-ivi-clone
+    - setup-mbr-ivi
 RemovePackages:
     - openssh
     - sdbd
 PostScripts:
-    - setup-ivi
+    - mbr

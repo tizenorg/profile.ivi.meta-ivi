@@ -1,0 +1,14 @@
+Name: IVI Release EFI i586
+Schedule: "*"
+Active: False
+Platform: Wayland-i586
+InstallerFrameworkPlugins: 
+    - bootloader
+Part: ivi-efi
+FileName: ivi-release-efi-i586
+Kernel: kernel-x86-ivi
+ExtraPackages:
+    - release-repos
+    - setup-efi-ivi
+PostScripts:
+    - efi

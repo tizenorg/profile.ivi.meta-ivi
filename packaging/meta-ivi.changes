@@ -1,3 +1,6 @@
+* Wed Mar 19 23:49:26 UTC 2014 - tracy.graydon@intel.com
+- Fix the release ks and image naming
+
 * Wed Mar 12 01:49:56 UTC 2014 - tracy.graydon@intel.com
 - Add the ivi-ux-html5-ui.yaml pattern
 

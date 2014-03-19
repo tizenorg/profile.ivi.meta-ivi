@@ -1,0 +1,15 @@
+Name: IVI Release MBR i586
+Schedule: "*"
+Active: False
+Platform: Wayland-i586
+InstallerFrameworkPlugins:
+    - bootloader
+Part: ivi-mbr
+Mic2Options: -f raw --fstab=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap
+FileName: ivi-release-mbr-i586
+Kernel: kernel-x86-ivi
+ExtraPackages:
+    - release-repos
+    - setup-mbr-ivi
+PostScripts:
+    - mbr
