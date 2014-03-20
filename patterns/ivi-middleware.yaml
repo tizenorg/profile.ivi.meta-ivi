@@ -22,6 +22,7 @@ Packages:
 - gupnp
 - gupnp-av
 - gupnp-dlna
+- ico-vic-amb-plugin
 - iptables
 - lemolo
 - libprivilege-control-conf
