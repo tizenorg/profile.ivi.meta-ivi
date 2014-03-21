@@ -11,6 +11,7 @@ Kernel: kernel-x86-ivi
 Repos:
     - ivi
 ExtraPackages:
+    - kdbus-bus
     - ivi-repos
     - setup-extlinux
     - setup-ivi-clone

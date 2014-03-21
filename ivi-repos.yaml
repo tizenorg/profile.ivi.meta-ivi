@@ -9,3 +9,7 @@ Repositories:
     -   Name: ivi-standard
         Url:  https://download.tizen.org/.snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/standard/packages/
         Options:
+
+    -   Name: override
+        Url: file:///usr/local/share/repos/kdbus/
+        Options:
