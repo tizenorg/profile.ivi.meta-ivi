@@ -16,3 +16,4 @@ ExtraPackages:
     - setup-ivi-clone
 PostScripts:
     - setup-ivi
+    - locale
