@@ -18,3 +18,4 @@ ExtraPackages:
 PostScripts:
     - base-ivi-minimal
     - setup-ivi
+    - locale

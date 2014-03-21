@@ -4,7 +4,7 @@ Default:
     Mic2Options: -f raw --fstab=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap
     Architecture: ia32
     Part: ivi-mbr
-    Language: en_US.UTF-8
+    Language: en_US.utf8
     Keyboard: us
     Timezone: America/Los_Angeles
     RootPass: tizen
