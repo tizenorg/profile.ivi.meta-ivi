@@ -11,7 +11,7 @@ Default:
     DefaultUser: tizen
     DefaultUserPass: tizen
     BootLoader: True
-    BootloaderAppend: "rootwait rootfstype=ext4 quiet"
+    BootloaderAppend: "rootwait rootfstype=ext4 loglevel=7 kdbus"
     BootloaderTimeout: 0
     BootloaderOptions: "--ptable=gpt"
     StartX: False
@@ -42,6 +42,7 @@ Wayland-i586:
         - base-weston-default
     Repos:
         - ivi
+        - override
 
 
 Wayland-x86_64:

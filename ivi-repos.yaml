@@ -9,3 +9,6 @@ Repositories:
         Url:  https://download.tizen.org/.build/snapshots/tizen/ivi/@BUILD_ID@/repos/atom/packages/
     -   Name: emul-jj
         Url:  https://download.tizen.org/.build/snapshots/tizen/ivi/@BUILD_ID@/repos/emulator/packages/
+    -   Name: override
+        Url: file:///usr/local/share/repos/kdbus/
+        Options:

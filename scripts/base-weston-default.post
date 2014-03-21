@@ -24,7 +24,8 @@ ln -sf weston.target  /usr/lib/systemd/user/default.target
 #  - ELM_THEME is needed in order for the wrt to have visible content
 #  - WRT_PROCESS_POOL_DISABLE is a work around for TIVI-2062
 cat > /etc/sysconfig/wrt <<EOF
-DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/5000/dbus/user_bus_socket
+DBUS_SESSION_BUS_ADDRESS="kernel:path=/dev/kdbus/5000-user/bus;unix:path=/run/user/5000/dbus/user_bus_socket"
+DBUS_SYSTEM_BUS_ADDRESS=kernel:path=/dev/kdbus/0-system/bus
 XDG_RUNTIME_DIR=/run/user/5000
 ELM_ENGINE=wayland_egl
 ECORE_EVAS_ENGINE=wayland_egl
