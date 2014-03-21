@@ -1,6 +1,6 @@
 Name: IVI Release MBR i586 Emul
 Schedule: "*"
-Active: False
+Active: True
 Mic2Options: -f loop --pack-to=@NAME@.tar.gz
 Platform: Wayland-i586
 InstallerFrameworkPlugins:
