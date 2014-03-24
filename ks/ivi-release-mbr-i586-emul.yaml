@@ -5,6 +5,7 @@ Mic2Options: -f loop --pack-to=@NAME@.tar.gz
 Platform: Wayland-i586
 InstallerFrameworkPlugins:
     - bootloader
+    - fstab
 Part: ivi-emul
 FileName: ivi-release-mbr-i586-emul
 Kernel: kernel-x86-ivi
@@ -13,9 +14,10 @@ Repos:
 ExtraPackages:
     - release-repos
     - system-plugin-emulator
-    - setup-mbr-ivi
+    - setup-extlinux
+    - setup-ivi-clone
 RemovePackages:
     - openssh
     - sdbd
 PostScripts:
-    - mbr
+    - setup-ivi
