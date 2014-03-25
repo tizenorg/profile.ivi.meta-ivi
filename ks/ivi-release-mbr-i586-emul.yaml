@@ -21,3 +21,4 @@ RemovePackages:
     - sdbd
 PostScripts:
     - setup-ivi
+    - locale
