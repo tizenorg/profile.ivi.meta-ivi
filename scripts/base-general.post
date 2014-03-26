@@ -4,3 +4,16 @@ ln -sf /proc/self/mounts /etc/mtab
 
 rm -rf /root/.zypp
 
+# workaround for bug PTREL-763 	58
+patch -p1 -d/ <<'EOF'	59
+diff -urN bad/etc/pam.d/systemd-user good/etc/pam.d/systemd-user	60
+--- bad/etc/pam.d/systemd-user 2014-03-20 10:01:36.657843073 +0100	61
++++ good/etc/pam.d/systemd-user 2014-03-20 10:06:51.586121696 +0100	62
+@@ -4,5 +4,6 @@	63
+ 	64
+ account include system-auth	65
+ session include system-auth	66
++session required pam_systemd.so	67
+ auth required pam_deny.so	68
+ password required pam_deny.so	69
+EOF 
