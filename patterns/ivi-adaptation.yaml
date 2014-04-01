@@ -4,4 +4,5 @@ Packages:
  - dracut
  - linux-firmware-ivi
  - udev-rules-ivi
+ - hwdata-ivi
 Summary: IVI Adaptation
