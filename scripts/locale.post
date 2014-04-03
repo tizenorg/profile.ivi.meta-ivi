@@ -31,3 +31,5 @@ if [ -e /etc/sysconfig/i18n -a ! -e /etc/locale.conf ]; then
         [ -n "$LC_IDENTIFICATION" ] && echo LC_IDENTIFICATION=$LC_IDENTIFICATION >> /etc/locale.conf 2>&1 || :
 fi
 rm -f /etc/sysconfig/i18n >/dev/null 2>&1 || :
+
+chsmack -a System::Shared /etc/locale.conf
