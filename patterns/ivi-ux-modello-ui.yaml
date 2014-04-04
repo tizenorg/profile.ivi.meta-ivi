@@ -1,0 +1,17 @@
+Description: IVI UX MODELLO UI
+Name: ivi-ux-modello-ui
+Packages:
+- Modello_AMBSimulator
+- Modello_Appmanager
+- Modello_Common
+- Modello_Dashboard
+- Modello_Homescreen
+- Modello_Hvac
+- Modello_Multimediaplayer
+- Modello_Nav
+- Modello_Phone
+- Modello_SDL
+- wrt-plugins-ivi-phone
+- phoned
+- wrt-plugins-tizen-bt
+Summary: IVI UX MODELLO UI 
