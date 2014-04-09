@@ -1,3 +1,6 @@
+* Wed Apr  9 17:39:27 UTC 2014 - tracy.graydon@intel.com
+- Turn off the broken Jenkins build image. It breaks repa results. 
+
 * Wed Mar 12 01:49:56 UTC 2014 - tracy.graydon@intel.com
 - Add the ivi-ux-html5-ui.yaml pattern
 
