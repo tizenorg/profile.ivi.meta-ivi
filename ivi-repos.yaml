@@ -1,11 +1,9 @@
 Repositories:
     -   Name: ivi
         Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/ivi/@ARCH@/packages/
-        Options:
     -   Name: ivi-debug
         Url:  https://download.tizen.org/snapshots/tizen/ivi/@ivi/BUILD_ID@/repos/ivi/@ARCH@/debug/
-        Options:
-
     -   Name: ivi-standard
         Url:  https://download.tizen.org/.snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/standard/packages/
-        Options:
+    -   Name: emul
+        Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi-emulator/@BUILD_ID@/repos/emul/@ARCH@/packages/
