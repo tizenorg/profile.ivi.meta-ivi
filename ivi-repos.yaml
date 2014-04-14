@@ -3,4 +3,5 @@ Repositories:
         Url:  http://download.tizen.org/snapshots/tizen/ivi/ivi-release/@BUILD_ID@/repos/ivi/@ARCH@/packages/
     -   Name: ivi-debug
         Url:  http://download.tizen.org/snapshots/tizen/ivi/ivi-release/@BUILD_ID@/repos/ivi/@ARCH@/debug/
-
+    -   Name: emul
+        Url:  http://download.tizen.org/snapshots/tizen/ivi/ivi-emulator/@BUILD_ID@/repos/emul/@ARCH@/packages/

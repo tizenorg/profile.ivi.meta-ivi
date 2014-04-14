@@ -10,7 +10,7 @@ Part: ivi-emul
 FileName: ivi-release-mbr-i586-emul
 Kernel: kernel-x86-ivi
 Repos:
-    - ivi
+    - emul
 ExtraPackages:
     - release-repos
     - system-plugin-emulator
