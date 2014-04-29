@@ -2,12 +2,10 @@ Description: IVI Applications
 Name: ivi-applications
 Packages:
 - GhostCluster
-- Settings
 - ca-certificates
 - ca-certificates-mozilla
 - festival
 - pocketsphinx
 - saythis
-- settingsd
 - sphinxbase
 Summary: IVI Applications

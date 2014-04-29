@@ -28,7 +28,6 @@ Packages:
 - libva-intel-driver
 - lightmediascanner
 - media-data-sdk
-- model-config-ivi
 - murphy
 - neard
 - neardal  
