@@ -32,7 +32,6 @@ Packages:
 - neard
 - neardal  
 - nfc-manager-neard 
-- nfc-common-lib-neard
 - net-config
 - notification-service
 - obexd
