@@ -3,6 +3,7 @@ Name: ivi-adaptation
 Packages:
  - dracut
  - linux-firmware-ivi
+ - mesa
  - udev-rules-ivi
  - hwdata-ivi
 Summary: IVI Adaptation
