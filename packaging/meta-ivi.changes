@@ -1,3 +1,11 @@
+* Fri May 02 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20140409.173917@2d2f937
+- Add mesa to IVI adaptation pattern
+- Remove saythis from ivi-applications pattern
+- Remove nfc-common-lib-neard from patterns
+- Remove Settings and model-config-ivi from patterns
+- Remove MediaPlayer from ivi-applications pattern
+- Remove webkit and wrt* packages
+
 * Mon Apr 14 18:06:55 UTC 2014 - tracy.graydon@intel.com
 - Emulator images should use the emul repo
 
