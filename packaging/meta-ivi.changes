@@ -1,3 +1,7 @@
+* Tue May 06 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140506.081549@e5365ca
+- remove default vconf keys post script
+- Fix typo in ivi-debug repo URL
+
 * Tue May 06 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140502.130948@81f8752
 - Fix repo url for emulator target
 - Remove GhostCluster from ivi-applications pattern
