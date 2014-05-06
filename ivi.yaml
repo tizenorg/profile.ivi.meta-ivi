@@ -40,7 +40,6 @@ Wayland-i586:
         - IVI Applications
     PostScripts:
         - base-weston-default
-        - vconf-keys-default
     Repos:
         - ivi
 
@@ -55,7 +54,6 @@ Wayland-x86_64:
         - IVI Applications x86_64
     PostScripts:
         - base-weston-default
-        - vconf-keys-default
     Repos:
         - ivi
 
@@ -69,6 +67,5 @@ Wayland-i586-JJ:
         - IVI Applications
     PostScripts:
         - base-weston-default
-        - vconf-keys-default
     Repos: []
 
