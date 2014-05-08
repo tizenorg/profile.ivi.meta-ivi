@@ -4,6 +4,7 @@ Packages:
 - alsa-utils
 - automotive-message-broker
 - bluez
+- crosswalk
 - csr-framework
 - default-ac-domains
 - dleyna
@@ -51,6 +52,7 @@ Packages:
 - syncevolution
 - syncevolution-ebook
 - syncevolution-pbap
+- tizen-extensions-crosswalk
 - udisks-automount-agent 
 - wpa_supplicant
 - zypper
