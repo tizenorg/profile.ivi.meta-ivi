@@ -1,6 +1,6 @@
 Summary:	IVI Meta Data
 Name:		meta-ivi
-Version:	006
+Version:	007
 Release:	1
 BuildArch:  noarch
 License:	GPL-2.0

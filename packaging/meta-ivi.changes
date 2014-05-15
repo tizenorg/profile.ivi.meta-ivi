@@ -1,3 +1,7 @@
+* Thu May 15 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20140513.115650@7661d17
+- Remove .ks files for minimal images
+- Update Modello pattern for Crosswalk
+
 * Thu May 08 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20140506.104936@9a92e73
 - Add crosswalk and tizen-extensions-crosswalk in the images
 
