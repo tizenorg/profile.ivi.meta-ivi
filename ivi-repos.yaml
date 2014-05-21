@@ -6,4 +6,4 @@ Repositories:
     -   Name: ivi-standard
         Url:  https://download.tizen.org/.snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/standard/packages/
     -   Name: emul
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/emul/@ARCH@/packages/
+        Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi-emulator/@BUILD_ID@/repos/emul/@ARCH@/packages/
