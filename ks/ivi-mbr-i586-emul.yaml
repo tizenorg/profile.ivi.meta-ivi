@@ -18,9 +18,6 @@ ExtraPackages:
     - setup-ivi-clone
 RemovePackages:
     - openssh
-    - mesa-libGL
-    - libva
-    - gstreamer-vaapi
 PostScripts:
     - setup-ivi
     - locale
