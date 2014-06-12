@@ -24,7 +24,7 @@ Default:
         - IVI Packaging
     PostScripts:
         - base-general
-        - disable-net-config  
+        - disable-net-config
         - rpm
     NoChrootScripts:
         - buildname  
@@ -40,6 +40,7 @@ Wayland-i586:
         - IVI Applications
     PostScripts:
         - base-weston-default
+        - desktop-applications
     Repos:
         - ivi
 
