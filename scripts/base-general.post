@@ -17,3 +17,12 @@ diff -urN bad/etc/pam.d/systemd-user good/etc/pam.d/systemd-user
  auth required pam_deny.so
  password required pam_deny.so
 EOF
+
+# create appfw dirs inside homes
+for user in app guest; do
+	for appdir in desktop manifest dbspace; do
+		mkdir -p /home/$user/.applications/$appdir
+	done
+	find /home/$user/ -type d -exec chsmack -a User {} \;
+	chown -R $user:users /home/$user/
+done
