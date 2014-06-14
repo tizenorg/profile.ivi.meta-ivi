@@ -18,6 +18,7 @@ ExtraPackages:
     - setup-ivi-clone
 RemovePackages:
     - openssh
+    - sdbd
 PostScripts:
     - setup-ivi
     - locale
