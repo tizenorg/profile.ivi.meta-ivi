@@ -56,16 +56,3 @@ Wayland-x86_64:
         - base-weston-default
     Repos:
         - ivi
-
-Wayland-i586-JJ:
-    Part: ivi-mbr
-    UserGroups: "audio,video,weston-launch"
-    Groups:
-        - IVI Middleware
-        - Wayland
-        - Console Tools
-        - IVI Applications
-    PostScripts:
-        - base-weston-default
-    Repos: []
-
