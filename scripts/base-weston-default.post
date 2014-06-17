@@ -38,5 +38,5 @@ cp /etc/sysconfig/wrt /etc/sysconfig/launchpad
 # Add a rule to ensure the app user has permissions to
 # open the graphics device
 cat > /etc/udev/rules.d/99-dri.rules <<EOF
-SUBSYSTEM=="drm", MODE="0666"
+SUBSYSTEM=="drm", MODE="0660"
 EOF
