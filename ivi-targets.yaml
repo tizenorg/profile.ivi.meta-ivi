@@ -1,0 +1,13 @@
+---
+Targets:
+    -   Name: atom
+        Images:
+            - ivi-efi-i586.yaml
+            - ivi-mbr-i586.yaml
+
+    -   Name: emulator
+        Images:
+            - ivi-mbr-i586-emul.yaml
+
+    -   Name: arm
+        Images: []

@@ -21,6 +21,7 @@ install:
 	install -m 644 patterns/*.yaml ${DESTDIR}/usr/share/package-groups/ivi
 	install -m 644 ivi.yaml ${DESTDIR}/usr/share/image-configurations/ivi
 	install -m 644 ivi-repos.yaml ${DESTDIR}/usr/share/image-configurations/ivi
+	install -m 644 ivi-targets.yaml ${DESTDIR}/usr/share/image-configurations/ivi
 	install -m 644 ks/*.yaml ${DESTDIR}/usr/share/image-configurations/ivi/configs
 	install -D partitions/* ${DESTDIR}/usr/share/image-configurations/ivi/partitions
 	install -D scripts/* ${DESTDIR}/usr/share/image-configurations/ivi/scripts
