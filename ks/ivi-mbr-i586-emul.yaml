@@ -16,7 +16,6 @@ ExtraPackages:
     - system-plugin-emulator
     - setup-extlinux
     - setup-ivi-clone
-    - sdbd
 RemovePackages:
     - openssh
 PostScripts:
