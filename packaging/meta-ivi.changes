@@ -1,3 +1,8 @@
+* Mon Jun 23 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20140617.121911-6-g878e255
+- Support new repo structure
+- Remove some ICO- packages from the ICO UX pattern
+- Enable multiuser AUL functionality
+
 * Tue May 27 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20140522.113640@5f1e379
 - Change packages in emulator image
 - Enable temp ks for image creation on jenkins
