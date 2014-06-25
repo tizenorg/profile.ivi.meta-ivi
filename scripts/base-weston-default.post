@@ -1,16 +1,9 @@
 # Initialize the native application database
 pkg_initdb
 
-# Add 'app' user to the weston-launch group
-/usr/sbin/groupmod -A app weston-launch
-
-# Temporary work around for bug in filesystem package resulting in the 'app' user home
-# directory being only readable by root
-chown -R app:app /opt/home/app
-
-# Since weston-launch runs with the "User" label, the app
-# home dir must have the same label
-chsmack -a User /opt/home/app
+# adjust app group: main group 'users', extra group 'app', 'weston-launch'
+/usr/sbin/usermod -g users app
+/usr/sbin/usermod -G app,weston-launch app
 
 # Enable a logind session for 'app' user on seat0 (the default seat for
 # graphical sessions)

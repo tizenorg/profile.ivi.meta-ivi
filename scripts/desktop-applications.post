@@ -12,7 +12,6 @@ chmod 764 $TZ_SYS_DB/.app_info.db*
 for user in app; do
 	[ ! -d /home/$user ] && continue
 	echo "Fix app_info.db of $user"
-	chown -R $user:users /home/$user/.applications/dbspace/
 
 	if [ -f /home/$user/.applications/dbspace/.app_info.db ]; then
 		sqlite3 /home/$user/.applications/dbspace/.app_info.db <<EOF
@@ -23,5 +22,6 @@ EOF
 		cp $TZ_SYS_DB/.app_info.db /home/$user/.applications/dbspace/.app_info.db
 	fi
 
+	chown -R $user:users /home/$user/.applications/dbspace/
 	chsmack -a User /home/$user/.applications/dbspace/.app_info.db*
 done
