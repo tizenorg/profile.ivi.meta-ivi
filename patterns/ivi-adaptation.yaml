@@ -4,6 +4,7 @@ Packages:
  - dracut
  - linux-firmware-ivi
  - mesa
+ - model-config-ivi
  - udev-rules-ivi
  - hwdata-ivi
 Summary: IVI Adaptation
