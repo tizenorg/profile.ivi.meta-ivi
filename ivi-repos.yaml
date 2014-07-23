@@ -1,7 +1,7 @@
 Repositories:
     -   Name: ivi
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/atom/packages/
+        Url:  https://download.tizen.org/snapshots/tizen/ivi-3.0.m14.2/@BUILD_ID@/repos/atom/packages/
     -   Name: ivi-debug
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/atom/debug/
+        Url:  https://download.tizen.org/snapshots/tizen/ivi-3.0.m14.2/@BUILD_ID@/repos/atom/debug/
     -   Name: emul
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/ivi/@BUILD_ID@/repos/emulator/packages/
+        Url:  https://download.tizen.org/snapshots/tizen/ivi-3.0.m14.2/@BUILD_ID@/repos/emulator/packages/
