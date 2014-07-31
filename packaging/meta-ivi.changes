@@ -1,3 +1,11 @@
+* Thu Jul 31 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140712.195630-4-g99158a1
+- add model-config-ivi (/etc/config/model-config.xml)
+- extra fix to avoid root and display sessions
+- Remove ico-uxf-weston-plugin package from the IVI UX ICO Homescreen
+- Point to IVI new repo url
+- Added filter definitions of image with build target
+- Remove the 99-dri.rules create from the kickstart file
+
 * Mon Jun 23 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20140617.121911-6-g878e255
 - Support new repo structure
 - Remove some ICO- packages from the ICO UX pattern
