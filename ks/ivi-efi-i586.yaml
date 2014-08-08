@@ -15,6 +15,4 @@ ExtraPackages:
     - gummiboot-splash
     - setup-gummiboot
     - setup-ivi-clone
-PostScripts:
-    - setup-ivi
-    - locale
+PostScripts: []

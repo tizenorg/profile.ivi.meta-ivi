@@ -18,6 +18,4 @@ ExtraPackages:
     - setup-ivi-clone
 RemovePackages:
     - openssh
-PostScripts:
-    - setup-ivi
-    - locale
+PostScripts: []
