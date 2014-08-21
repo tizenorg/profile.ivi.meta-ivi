@@ -19,13 +19,13 @@ Default:
     SaveRepos: False
     UserGroups: "audio,video"
     Groups:
-        - Base System
         - IVI Adaptation
-        - IVI Packaging
+        - Generic Base
+        - Generic Packaging
     PostScripts:
-        - base-general
-        - disable-net-config
-        - rpm
+        - ivi-adaptation
+        - generic-base
+        - generic-packaging
     NoChrootScripts:
         - buildname  
 
@@ -33,14 +33,29 @@ Wayland-i586:
     Part: ivi-mbr
     UserGroups: "audio,video,weston-launch"
     Groups:
-        - IVI Middleware
-        - Wayland
+        - Generic Middleware
+        - Generic Wayland
+        - Generic Crosswalk
+        - Generic Multimedia
+        - Generic Multimedia Intel
+        - Generic Bluetooth
+        - Generic Console Tools
+        - Generic Desktop Applications
         - IVI UX Weston
-        - Console Tools
+        - IVI Middleware
         - IVI Applications
     PostScripts:
-        - base-weston-default
-        - desktop-applications
+        - generic-middleware
+        - generic-wayland
+        - generic-crosswalk
+        - generic-multimedia
+        - generic-multimedia-intel
+        - generic-bluetooth
+        - generic-console-tools
+        - generic-desktop-applications
+        - ivi-ux-weston
+        - ivi-middleware
+        - ivi-applications
     Repos:
         - ivi
 
@@ -49,11 +64,28 @@ Wayland-x86_64:
     Part: ivi-mbr
     UserGroups: "audio,video,weston-launch"
     Groups:
-        - IVI Middleware x86_64
-        - Wayland
-        - Console Tools
-        - IVI Applications x86_64
+        - Generic Middleware
+        - Generic Wayland
+        - Generic Crosswalk
+        - Generic Multimedia
+        - Generic Multimedia Intel
+        - Generic Bluetooth
+        - Generic Console Tools
+        - Generic Desktop Applications
+        - IVI UX Weston
+        - IVI Middleware
+        - IVI Applications
     PostScripts:
-        - base-weston-default
+        - generic-middleware
+        - generic-wayland
+        - generic-crosswalk
+        - generic-multimedia
+        - generic-multimedia-intel
+        - generic-bluetooth
+        - generic-console-tools
+        - generic-desktop-applications
+        - ivi-ux-weston
+        - ivi-middleware
+        - ivi-applications
     Repos:
         - ivi
