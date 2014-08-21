@@ -1,3 +1,7 @@
+* Thu Aug 21 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140801.100417-2-g06f2f46
+- Align with meta-generic patterns and scripts
+- Clean up IVI middleware and applications patterns
+
 * Thu Jul 31 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140712.195630-4-g99158a1
 - add model-config-ivi (/etc/config/model-config.xml)
 - extra fix to avoid root and display sessions
