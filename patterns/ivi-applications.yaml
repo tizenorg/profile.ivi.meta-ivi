@@ -1,9 +1,8 @@
 Description: IVI Applications
 Name: ivi-applications
 Packages:
-- ca-certificates
-- ca-certificates-mozilla
-- festival
-- pocketsphinx
-- sphinxbase
+- GhostCluster
+- lemolo
+- smartdevicelink
+- smartdevicelink-sample-hmi
 Summary: IVI Applications
