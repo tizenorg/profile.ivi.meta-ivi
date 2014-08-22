@@ -54,7 +54,6 @@ Wayland-i586:
         - generic-console-tools
         - generic-desktop-applications
         - ivi-ux-weston
-        - ivi-middleware
         - ivi-applications
     Repos:
         - ivi
@@ -85,7 +84,6 @@ Wayland-x86_64:
         - generic-console-tools
         - generic-desktop-applications
         - ivi-ux-weston
-        - ivi-middleware
         - ivi-applications
     Repos:
         - ivi
