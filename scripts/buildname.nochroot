@@ -2,4 +2,12 @@
 if [ -n "$IMG_NAME" ]; then
     echo "BUILD_ID=$IMG_NAME" >> $INSTALL_ROOT/etc/tizen-release
     echo "BUILD_ID=$IMG_NAME" >> $INSTALL_ROOT/etc/os-release
+
+	RELEASE_NUM=${IMG_NAME%_*}
+	for efi_conf_name in `find $INSTALL_ROOT/boot/loader/entries`
+	do
+		sed -i "/^title.*$/s//& $RELEASE_NUM/g" $efi_conf_name
+	done
+	mbr_conf_name=$INSTALL_ROOT/boot/extlinux/extlinux.conf
+	sed -i "/\s^*menu.*$/s//& $RELEASE_NUM/g" $mbr_conf_name
 fi
