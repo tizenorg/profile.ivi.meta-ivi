@@ -1,3 +1,7 @@
+* Mon Sep 01 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140825.000000-1-gff9e1f1
+- Remove non-existent ivi-middleware script from configs
+- Disable generic-crosswalk.post script
+
 * Thu Aug 21 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140801.100417-2-g06f2f46
 - Align with meta-generic patterns and scripts
 - Clean up IVI middleware and applications patterns
