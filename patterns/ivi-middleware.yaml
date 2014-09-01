@@ -17,7 +17,6 @@ Packages:
 - neardal  
 - nfc-manager-neard 
 - ofono
-- openavb
 - pocketsphinx
 - pulseaudio-module-murphy-ivi
 - rygel

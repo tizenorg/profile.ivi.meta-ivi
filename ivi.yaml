@@ -47,7 +47,6 @@ Wayland-i586:
     PostScripts:
         - generic-middleware
         - generic-wayland
-        - generic-crosswalk
         - generic-multimedia
         - generic-multimedia-intel
         - generic-bluetooth
@@ -77,7 +76,6 @@ Wayland-x86_64:
     PostScripts:
         - generic-middleware
         - generic-wayland
-        - generic-crosswalk
         - generic-multimedia
         - generic-multimedia-intel
         - generic-bluetooth
