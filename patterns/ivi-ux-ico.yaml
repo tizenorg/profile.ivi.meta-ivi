@@ -1,7 +1,10 @@
 Description: IVI UX ICO Homescreen
 Name: ivi-ux-ico
 Packages:
-- weston-ivi
+- genivi-shell
 - ico-uxf-homescreen
 - ico-uxf-utilities
+- murphy-system-controller
+- weston-ivi
+- weston-ivi-shell
 Summary: IVI UX ICO Homescreen
