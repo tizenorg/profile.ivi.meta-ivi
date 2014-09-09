@@ -43,6 +43,7 @@ Wayland-i586:
         - Generic Desktop Applications
         - IVI UX Weston
         - IVI Middleware
+        - IVI Middleware Intel
         - IVI Applications
     PostScripts:
         - generic-middleware
@@ -72,6 +73,7 @@ Wayland-x86_64:
         - Generic Desktop Applications
         - IVI UX Weston
         - IVI Middleware
+        - IVI Middleware Intel
         - IVI Applications
     PostScripts:
         - generic-middleware
