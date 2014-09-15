@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "#################### ivi-adaptation-renesas-m2.post ####################"
+
+# Force sw compositor
+sed -i "/ExecStart/s/\$/ --use-pixman/" /usr/lib/systemd/user/weston.service
