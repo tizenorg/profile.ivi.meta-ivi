@@ -10,4 +10,5 @@ Targets:
             - ivi-mbr-i586-emul.yaml
 
     -   Name: arm
-        Images: []
+        Images:
+           - ivi-mbr-renesas-m2.yaml

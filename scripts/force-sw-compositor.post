@@ -1,0 +1,3 @@
+#force-sw-compositor.post
+
+sed -i "/ExecStart/s/\$/ --use-pixman/" /usr/lib/systemd/user/weston.service

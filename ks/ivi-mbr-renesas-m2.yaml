@@ -1,0 +1,13 @@
+Name: IVI MBR Renesas-M2
+Schedule: "*"
+Active: True
+Mic2Options: -f loop --pack-to=@NAME@.tar.gz
+Platform: Wayland-ARM
+Part: ivi-mbr
+FileName: ivi-mbr-renesas-m2
+Repos:
+    - ivi-arm
+ExtraPackages:
+     - ivi-repos
+PostScripts:
+    - force-sw-compositor
