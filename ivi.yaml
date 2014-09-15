@@ -87,3 +87,30 @@ Wayland-x86_64:
         - ivi-applications
     Repos:
         - ivi
+
+Wayland-ARM:
+    Part: ivi-mbr
+    UserGroups: "audio,video,weston-launch"
+    Groups:
+        - Generic Middleware
+        - Generic Wayland
+        - Generic Crosswalk
+        - Generic Multimedia
+        - Generic Bluetooth
+        - Generic Console Tools
+        - Generic Desktop Applications
+        - IVI UX Weston
+        - IVI Middleware
+        - IVI Applications
+    PostScripts:
+        - generic-middleware
+        - generic-wayland
+        - generic-crosswalk
+        - generic-multimedia
+        - generic-bluetooth
+        - generic-console-tools
+        - generic-desktop-applications
+        - ivi-ux-weston
+        - ivi-applications
+    Repos:
+        - ivi-arm
