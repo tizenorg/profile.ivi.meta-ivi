@@ -1,5 +1,8 @@
 #!/bin/sh
 echo "#################### ivi-adaptations.post ####################"
 
+#replace "Tizen Next" with real release number.
+sed -i 's/(\(.*\))/(@BUILD_ID@)/' /etc/os-release
+
 # Install and configure the boot-loader, /etc/fstab, and so on
 /usr/sbin/setup-ivi-boot
