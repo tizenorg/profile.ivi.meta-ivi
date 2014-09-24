@@ -1,0 +1,17 @@
+Name: IVI MBR x86_64
+Schedule: "*"
+Active: True
+Platform: Wayland-x86_64
+InstallerFrameworkPlugins:
+    - bootloader
+    - fstab
+Part: ivi-mbr
+FileName: ivi-mbr-x86_64
+Kernel: kernel-x86-ivi
+Repos:
+    - ivi64
+ExtraPackages:
+    - ivi-repos
+    - setup-extlinux
+    - setup-ivi-clone
+PostScripts: []

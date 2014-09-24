@@ -5,6 +5,11 @@ Targets:
             - ivi-efi-i586.yaml
             - ivi-mbr-i586.yaml
 
+    -   Name: atom64
+        Images:
+            - ivi-efi-x86_64.yaml
+            - ivi-mbr-x86_64.yaml
+
     -   Name: emulator
         Images:
             - ivi-mbr-i586-emul.yaml
