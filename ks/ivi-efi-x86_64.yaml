@@ -1,15 +1,15 @@
-Name: IVI EFI i586
+Name: IVI EFI x86_64
 Schedule: "*"
 Active: True
-Platform: Wayland-i586
+Platform: Wayland-x86_64
 InstallerFrameworkPlugins:
     - bootloader
     - fstab
 Part: ivi-efi
-FileName: ivi-efi-i586
+FileName: ivi-efi-x86_64
 Kernel: kernel-x86-ivi
 Repos:
-    - ivi
+    - ivi64
 ExtraPackages:
     - ivi-repos
     - gummiboot-splash
