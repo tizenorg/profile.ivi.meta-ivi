@@ -7,12 +7,9 @@ InstallerFrameworkPlugins:
     - fstab
 Part: ivi-efi
 FileName: ivi-efi-i586
-Kernel: kernel-x86-ivi
+Kernel: kernel-profile-ivi
 Repos:
     - ivi
 ExtraPackages:
     - ivi-repos
-    - gummiboot-splash
-    - setup-gummiboot
-    - setup-ivi-clone
 PostScripts: []

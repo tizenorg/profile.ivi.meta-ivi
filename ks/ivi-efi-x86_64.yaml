@@ -7,12 +7,9 @@ InstallerFrameworkPlugins:
     - fstab
 Part: ivi-efi
 FileName: ivi-efi-x86_64
-Kernel: kernel-x86-ivi
+Kernel: kernel-profile-ivi
 Repos:
     - ivi64
 ExtraPackages:
     - ivi-repos
-    - gummiboot-splash
-    - setup-gummiboot
-    - setup-ivi-clone
 PostScripts: []

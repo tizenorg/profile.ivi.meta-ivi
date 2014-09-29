@@ -8,14 +8,12 @@ InstallerFrameworkPlugins:
     - fstab
 Part: ivi-emul
 FileName: ivi-mbr-i586-emul
-Kernel: kernel-x86-ivi
+Kernel: kernel-profile-ivi
 Repos:
     - emul
 ExtraPackages:
     - ivi-repos
     - system-plugin-emulator
-    - setup-extlinux
-    - setup-ivi-clone
 RemovePackages:
     - openssh
 PostScripts: []
