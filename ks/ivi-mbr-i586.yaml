@@ -12,4 +12,7 @@ Repos:
     - ivi
 ExtraPackages:
     - ivi-repos
-PostScripts: []
+    - setup-scripts-extlinux
+    - setup-scripts-clone
+PostScripts:
+    - generic-setup-boot
