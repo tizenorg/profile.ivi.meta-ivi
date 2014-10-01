@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "#################### ivi-emulator.post ####################"
+
+# create $HOME and necessary dirs for user 'developer'
+generic_base_fix_user_homedir developer
