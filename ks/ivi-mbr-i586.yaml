@@ -2,9 +2,6 @@ Name: IVI MBR i586
 Schedule: "*"
 Active: True
 Platform: Wayland-i586
-InstallerFrameworkPlugins:
-    - bootloader
-    - fstab
 Part: ivi-mbr
 FileName: ivi-mbr-i586
 Kernel: kernel-profile-ivi
