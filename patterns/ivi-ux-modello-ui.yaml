@@ -1,16 +1,16 @@
 Description: IVI UX MODELLO UI
 Name: ivi-ux-modello-ui
 Packages:
-- Modello_AMBSimulator
-- Modello_Appmanager
-- Modello_Common
-- Modello_Dashboard
-- Modello_Homescreen
-- Modello_Hvac
-- Modello_Multimediaplayer
-- Modello_Nav
-- Modello_Phone
-- Modello_SDL
-- Modello_Installer-xwalk
+- Modello-AMBSimulator
+- Modello-Appmanager
+- Modello-Common
+- Modello-Dashboard
+- Modello-Homescreen
+- Modello-Hvac
+- Modello-Multimediaplayer
+- Modello-Nav
+- Modello-Phone
+- Modello-SDL
+- Modello-Installer-xwalk
 - phoned
 Summary: IVI UX MODELLO UI
