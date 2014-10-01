@@ -33,7 +33,6 @@ Wayland-i586:
     Part: ivi-mbr
     UserGroups: "audio,video,weston-launch"
     Groups:
-        - Generic Setup Boot
         - Generic Middleware
         - Generic Wayland
         - Generic Crosswalk
@@ -47,7 +46,6 @@ Wayland-i586:
         - IVI Middleware Intel
         - IVI Applications
     PostScripts:
-        - generic-setup-boot
         - generic-middleware
         - generic-wayland
         - generic-multimedia
@@ -65,7 +63,6 @@ Wayland-x86_64:
     Part: ivi-mbr
     UserGroups: "audio,video,weston-launch"
     Groups:
-        - Generic Setup Boot
         - Generic Middleware
         - Generic Wayland
         - Generic Crosswalk
@@ -79,7 +76,6 @@ Wayland-x86_64:
         - IVI Middleware Intel
         - IVI Applications
     PostScripts:
-        - generic-setup-boot
         - generic-middleware
         - generic-wayland
         - generic-multimedia

@@ -10,6 +10,9 @@ FileName: ivi-efi-i586
 Kernel: kernel-profile-ivi
 Repos:
     - ivi
+Groups:
+    - Generic Setup Boot
 ExtraPackages:
     - ivi-repos
-PostScripts: []
+PostScripts:
+    - generic-setup-boot
