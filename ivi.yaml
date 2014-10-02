@@ -21,10 +21,12 @@ Default:
     Groups:
         - IVI Adaptation
         - Generic Base
+        - IVI Base
         - Generic Packaging
     PostScripts:
         - ivi-adaptation
         - generic-base
+        - ivi-base
         - generic-packaging
     NoChrootScripts:
         - buildname  
