@@ -8,7 +8,7 @@ Default:
     Keyboard: us
     Timezone: America/Los_Angeles
     RootPass: tizen
-    DefaultUser: tizen
+    DefaultUser: guest
     DefaultUserPass: tizen
     BootLoader: True
     BootloaderAppend: "rootwait rootfstype=ext4 quiet"
