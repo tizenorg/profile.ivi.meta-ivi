@@ -1,3 +1,6 @@
+* Mon Oct 06 2014 Jimmy Huang <jimmy.huang@intel.com> accepted/tizen/ivi/20141001.124714-5-g8848723
+- Adding phoned to the middleware pattern
+
 * Mon Sep 01 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140825.000000-1-gff9e1f1
 - Remove non-existent ivi-middleware script from configs
 - Disable generic-crosswalk.post script
