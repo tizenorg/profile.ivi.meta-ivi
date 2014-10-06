@@ -17,6 +17,7 @@ Packages:
 - neardal  
 - nfc-manager-neard 
 - ofono
+- phoned
 - pocketsphinx
 - pulseaudio-module-murphy-ivi
 - rygel
