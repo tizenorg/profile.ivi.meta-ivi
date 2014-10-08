@@ -16,3 +16,4 @@ Targets:
     -   Name: arm
         Images:
            - ivi-mbr-renesas-m2.yaml
+           - ivi-mbr-odroid-u3.yaml
