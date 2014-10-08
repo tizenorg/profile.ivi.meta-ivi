@@ -1,0 +1,13 @@
+Name: IVI ODROIDU3 ARM
+Schedule: "*"
+Active: True
+Mic2Options: -f loop --pack-to=@NAME@.tar.gz
+Platform: Wayland-ARM
+Part: ivi-mbr
+FileName: ivi-mbr-odroid-u3.yaml
+Repos:
+    - ivi-arm
+ExtraPackages:
+    - ivi-repos
+PostScripts: []
+    

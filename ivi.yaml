@@ -106,6 +106,7 @@ Wayland-ARM:
         - IVI UX Weston
         - IVI Middleware
         - IVI Applications
+        - IVI Adaptation Odroidu3
     PostScripts:
         - generic-middleware
         - generic-wayland
@@ -116,5 +117,6 @@ Wayland-ARM:
         - generic-desktop-applications
         - ivi-ux-weston
         - ivi-applications
+        - ivi-adaptation-odroidu3
     Repos:
         - ivi-arm

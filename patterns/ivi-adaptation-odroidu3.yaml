@@ -1,0 +1,11 @@
+Description: IVI Adaptation Odroidu3
+Name: ivi-adaptation-odroidu3
+Packages:
+- openssh
+- libwayland-egl
+- mesa-libEGL
+- mesa-libGLESv2
+- libgbm
+- libtbm
+Summary: IVI Adaptation Odroidu3
+
