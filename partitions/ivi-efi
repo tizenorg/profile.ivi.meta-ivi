@@ -1,2 +1,2 @@
 part /boot --size 64 --ondisk sdb --fstype=vfat --label boot --active --align 1024 --part-type C12A7328-F81F-11D2-BA4B-00A0C93EC93B
-part / --size 3748 --ondisk sdb --fstype=ext4 --label platform --align 1024 --fsoptions=noatime
+part / --size 3500 --ondisk sdb --fstype=ext4 --label platform --align 1024 --fsoptions=noatime
