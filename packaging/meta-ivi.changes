@@ -1,3 +1,6 @@
+* Fri Oct 17 2014 Ed Bartosh <ed@ed.fi.intel.com> 014-1
+- Updated paths to point to m14.3 milestone
+
 * Fri Oct 17 2014 Ed Bartosh <eduard.bartosh@intel.com> 013-1
 - Disable generic-crosswalk.post script
 - packaging: update changelog and Version
