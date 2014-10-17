@@ -1,3 +1,23 @@
+* Fri Oct 17 2014 Ed Bartosh <eduard.bartosh@intel.com> 013-1
+- Disable generic-crosswalk.post script
+- packaging: update changelog and Version
+- Move Intel specific IVI middleware to its own pattern
+- Update ivi-ux-ico pattern to match with the latest architecture
+- identify which release the loader menu runs on.
+- Add repo path for ARM packages and add ARM IVI middleware.
+- Add ks definitions for Renesas R-Car M2 platform.
+- Declare new 64 bits target, repos and images
+- Update image configs to use setup-scripts and the new kernel
+- Clean spec file for yocto compliance.
+- Move Generic Setup Boot pattern to EFI images only
+- Add missing setup-scripts to the MBR image content
+- change the default user created in mic, from 'tizen' to 'guest'
+- ivi-adaptation.post: create user 'app' and group 'app'
+- ivi-adaptation.post: adjust TZ_SYS_DEFAULT_USER back to 'app'
+- add fixes for 'app' and 'guest' users
+- Adding phoned to the middleware pattern
+- partitions: Reduce image size to fit into NUC's mmc
+
 * Mon Sep 01 2014 Mikko Ylinen <mikko.ylinen@intel.com> submit/tizen_ivi/20140825.000000-1-gff9e1f1
 - Remove non-existent ivi-middleware script from configs
 - Disable generic-crosswalk.post script
