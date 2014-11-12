@@ -1,3 +1,0 @@
-#Hack to temporarily disable net-config, which collides with settingsd. Related to TIVI-2569
-
-rm /usr/lib/systemd/system/multi-user.target.wants/net-config.service 
