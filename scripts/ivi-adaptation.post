@@ -4,9 +4,12 @@ echo "#################### ivi-adaptations.post ####################"
 #replace "Tizen Next" with real release number.
 sed -i 's/(\(.*\))/(@BUILD_ID@)/' /etc/os-release
 
+# create genivi user
+useradd -c "GENIVI user" -d /home/genivi -G weston-launch,video -s /bin/sh -m genivi
+
 # create user 'app' and group 'app', dropped from platfrom/upstream/setup
 groupadd -g 5000 app 
-useradd -c "System based user" -d /home/app -g users -G app -m -u 5000 -s /bin/sh app
+useradd -c "System based user" -d /home/app -g users -G app,video,weston-launch -m -u 5000 -s /bin/sh app
 
 # adjust TZ_SYS_DEFAULT_USER to 'app'
 sed -ri 's|^(TZ_SYS_DEFAULT_USER=).*$|\1app|' /etc/tizen-platform.conf

@@ -3,13 +3,7 @@ pkg_initdb
 
 # adjust app group: main group 'users', extra group 'app', 'weston-launch'
 /usr/sbin/usermod -g users app
-/usr/sbin/usermod -G app,weston-launch app
-
-# Enable a logind session for 'app' user on seat0 (the default seat for
-# graphical sessions)
-mkdir -p /usr/lib/systemd/system/graphical.target.wants
-ln -s ../user-session-launch@.service /usr/lib/systemd/system/graphical.target.wants/user-session-launch@seat0-5000.service
-ln -sf weston.target  /usr/lib/systemd/user/default.target
+/usr/sbin/usermod -G app,weston-launch,video app
 
 # Add over-riding environment to enable the web runtime to
 # run on an IVI image as a different user then the tizen user
