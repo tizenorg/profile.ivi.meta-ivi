@@ -11,9 +11,12 @@ FileName: ivi-mbr-i586-emul
 Kernel: kernel-profile-ivi
 Repos:
     - emul
+Groups:
+    - Generic Setup Boot Bios
 ExtraPackages:
     - ivi-repos
     - system-plugin-emulator
 RemovePackages:
     - openssh
-PostScripts: []
+PostScripts:
+    - generic-setup-boot-bios

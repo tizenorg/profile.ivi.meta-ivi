@@ -10,9 +10,9 @@ FileName: ivi-mbr-i586
 Kernel: kernel-profile-ivi
 Repos:
     - ivi
+Groups:
+    - Generic Setup Boot Bios
 ExtraPackages:
     - ivi-repos
-    - setup-scripts-extlinux
-    - setup-scripts-clone
 PostScripts:
-    - generic-setup-boot
+    - generic-setup-boot-bios
