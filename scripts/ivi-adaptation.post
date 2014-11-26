@@ -8,6 +8,9 @@ sed -i 's/(\(.*\))/(@BUILD_ID@)/' /etc/os-release
 groupadd -g 5000 app 
 useradd -c "System based user" -d /home/app -g users -G app -m -u 5000 -s /bin/sh app
 
+# add 'app' user that runs bt-service daemon to vconf_bt group
+/usr/sbin/groupmod -A app vconf_bt
+
 # adjust TZ_SYS_DEFAULT_USER to 'app'
 sed -ri 's|^(TZ_SYS_DEFAULT_USER=).*$|\1app|' /etc/tizen-platform.conf
 
