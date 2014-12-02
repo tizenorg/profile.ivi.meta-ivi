@@ -2,6 +2,7 @@ Description: IVI Middleware
 Name: ivi-middleware
 Packages:
 - automotive-message-broker
+- automotive-message-broker-xwalk-vehicle-extension
 - dleyna
 - evolution-data-server
 - festival
