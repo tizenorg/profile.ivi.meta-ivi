@@ -1,3 +1,8 @@
+* Wed Dec 03 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20141119.005434-2-g0f9be56
+- packaging: update changelog and Version
+- add 'app' user to vconf_bt group
+- Add W3C Vehicle info API xwalk extension
+
 * Tue Nov 18 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20141024.004547-2-gfcae787
 - packaging: update changelog and Version
 - Move Intel specific IVI middleware to its own pattern
