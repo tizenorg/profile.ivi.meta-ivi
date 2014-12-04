@@ -1,8 +1,6 @@
 Description: IVI Applications
 Name: ivi-applications
 Packages:
-- GhostCluster
 - lemolo
 - smartdevicelink
-- smartdevicelink-sample-hmi
 Summary: IVI Applications
