@@ -14,3 +14,14 @@ useradd -c "System based user" -d /home/app -g users -G app -m -u 5000 -s /bin/s
 # adjust TZ_SYS_DEFAULT_USER to 'app'
 sed -ri 's|^(TZ_SYS_DEFAULT_USER=).*$|\1app|' /etc/tizen-platform.conf
 
+# disable sound-server to make Tizen start faster
+rm -fr /usr/lib/systemd/system/multi-user.target.wants/sound-server.path
+
+# disable system-server to make Tizen start faster
+rm -fr /usr/lib/systemd/system/sockets.target.wants/system-server.socket
+rm -fr /usr/lib/systemd/system/multi-user.target.wants/system-server.service
+rm -fr /usr/lib/systemd/system/graphical.target.wants/regpmon.service
+rm -fr /usr/lib/systemd/system/graphical.target.wants/zbooting-done.service
+
+# disable dracut-* to make Tizen start faster
+rm -fr /usr/lib/systemd/system/shutdown.target.wants/dracut-shutdown.service
