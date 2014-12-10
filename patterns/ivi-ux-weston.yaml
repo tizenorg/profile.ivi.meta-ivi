@@ -3,4 +3,5 @@ Name: ivi-ux-upstream-weston
 Packages:
 - weston-ivi
 - weston-ivi-config
+- tlm-config-ivi-singleseat
 Summary: IVI UX Weston
