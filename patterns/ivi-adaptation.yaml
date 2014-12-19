@@ -1,7 +1,6 @@
 Description: IVI Adaptation
 Name: ivi-adaptation
 Packages:
- - dracut
  - linux-firmware-ivi
  - mesa
  - model-config-ivi
