@@ -25,3 +25,69 @@ rm -fr /usr/lib/systemd/system/multi-user.target.wants/system-server.service
 rm -fr /usr/lib/systemd/system/graphical.target.wants/regpmon.service
 rm -fr /usr/lib/systemd/system/graphical.target.wants/zbooting-done.service
 
+# adjust system services for fastboot
+# add fastboot.service to start multi-user.target
+cat <<'EOF' >>/usr/lib/systemd/system/fastboot.service
+[Unit]
+Description=Start multi-user target
+After=tlm.service
+Requires=basic.target
+
+[Service]
+ExecStartPre=/usr/bin/sleep 1.5
+ExecStart=/usr/bin/systemctl start multi-user.target
+ExecStartPost=/usr/bin/touch /tmp/fastboot
+EOF
+
+ln -s /usr/lib/systemd/system/fastboot.service /usr/lib/systemd/system/default.target.wants/fastboot.service
+
+# adjust dependence of default.target
+sed -ri \
+	-e 's/^(Requires=).*/\1basic.target/' \
+	-e 's/^(After=).*/\1basic.target/' \
+	/usr/lib/systemd/system/default.target
+
+# move tlm.service and systemd-user-sessions.service to default.target.wants to make tlm.service start as early as possile
+rm -fr /etc/systemd/system/multi-user.target.wants/tlm.service
+ln -s /usr/lib/systemd/system/tlm.service /usr/lib/systemd/system/default.target.wants/tlm.service
+
+rm -fr /usr/lib/systemd/system/multi-user.target.wants/systemd-user-sessions.service
+ln -s /usr/lib/systemd/system/systemd-user-sessions.service /usr/lib/systemd/system/default.target.wants/systemd-user-sessions.service
+
+# adjust user services for fastboot
+# fastboot-user.path and fastboot-user.service are used to detect '/tmp/fastboot' and start user services
+cat <<'EOF' >>/usr/lib/systemd/user/fastboot-user.path
+[Unit]
+Description=Path activation for the fastboot function
+
+[Path]
+PathExists=/tmp/fastboot
+EOF
+
+cat <<'EOF' >>/usr/lib/systemd/user/fastboot-user.service
+[Unit]
+Description=Fastboot user service
+
+[Service]
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/dbus/user_bus_socke
+ExecStartPre=/usr/bin/sleep 0.5
+ExecStart=/usr/bin/systemctl start --user tizen-ivi.target
+
+[Install]
+WantedBy=default.target
+EOF
+
+cat <<'EOF' >>/usr/lib/systemd/user/tizen-ivi.target
+[Unit]
+Description=Tizen IVI fastboot target
+EOF
+
+mkdir -p /usr/lib/systemd/user/tizen-ivi.target.wants/
+mkdir -p /etc/systemd/user/tizen-ivi.target.wants/
+
+# postpone user services
+mv -f /etc/systemd/user/default.target.wants/*     /etc/systemd/user/tizen-ivi.target.wants/
+mv -f /usr/lib/systemd/user/default.target.wants/* /usr/lib/systemd/user/tizen-ivi.target.wants/
+
+# start fastboot-user.path
+ln -s /usr/lib/systemd/user/fastboot-user.path /usr/lib/systemd/user/default.target.wants/fastboot-user.path
