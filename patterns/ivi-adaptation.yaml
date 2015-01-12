@@ -6,4 +6,5 @@ Packages:
  - model-config-ivi
  - udev-rules-ivi
  - hwdata-ivi
+ - tizen-middleware-units
 Summary: IVI Adaptation

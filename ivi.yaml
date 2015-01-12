@@ -25,6 +25,7 @@ Default:
         - Generic Packaging
     PostScripts:
         - ivi-adaptation
+        - ivi-startup-modifications
         - generic-base
         - ivi-base
         - generic-packaging
