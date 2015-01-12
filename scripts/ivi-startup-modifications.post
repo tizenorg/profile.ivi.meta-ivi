@@ -1,0 +1,52 @@
+#!/bin/sh
+echo "#################### ivi-startup-modifications.post ####################"
+
+# move links of system middleware services from multi-user.target.wants to 
+# tizen-middleware.target.wants
+SDIRS="/usr/lib/systemd/system /etc/systemd/system"
+
+for dir in $SDIRS
+do
+	if [ -e $dir/tizen-middleware.target.wants ] && \
+	   [ -d $dir/tizen-middleware.target.wants ]
+	then
+		echo "##### system/tizen-middleware.target.wants already exists! #####"
+	else
+		mkdir -p $dir/tizen-middleware.target.wants/
+	fi
+
+	for file in $(ls $dir/multi-user.target.wants/)
+	do
+		if [ $file != "systemd-logind.service" ] && \
+		   [ $file != "systemd-user-sessions.service" ] && \
+		   [ $file != "tlm.service" ] && \
+		   [ $file != "tizen-middleware.timer" ]
+		then
+			mv $dir/multi-user.target.wants/$file $dir/tizen-middleware.target.wants/
+		fi
+	done
+done
+
+
+# move links of user services from default.target.wants to tizen-middleware.target.wants
+UDIRS="/usr/lib/systemd/user /etc/systemd/user"
+
+for dir in $UDIRS
+do
+	if [ -e $dir/tizen-middleware.target.wants ] && \
+	   [ -d $dir/tizen-middleware.target.wants ]
+	then
+		echo "##### user/tizen-middleware.target.wants already exists! #####"
+	else
+		mkdir -p $dir/tizen-middleware.target.wants/
+	fi
+
+	for file in $(ls $dir/default.target.wants/)
+	do
+		if [ $file != "start-tizen-middleware.path" ]
+		then
+			mv $dir/default.target.wants/$file $dir/tizen-middleware.target.wants/
+		fi
+	done
+done
+
