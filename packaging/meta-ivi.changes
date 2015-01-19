@@ -1,3 +1,6 @@
+* Mon Jan 19 2015 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20150114.083313-2-g4a352ba
+- Update repo paths to point to 3.0 IVI release
+
 * Mon Jan 19 2015 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20150114.083313-0-gbeb1a98
 - packaging: update changelog and Version
 - BIOS images use InstallerFrameworkPlugins (syslinux)
