@@ -1,3 +1,18 @@
+* Mon Jan 19 2015 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20150114.083313-0-gbeb1a98
+- packaging: update changelog and Version
+- BIOS images use InstallerFrameworkPlugins (syslinux)
+- Image content: drop unmaintained applications
+- Disable some useless services to make Tizen start faster
+- Fixes for multi-seat configuration
+- Add board-config package to renesas-m2
+- Add configuration package for tlm
+- Add users app and genivi to group audio
+- ivi-adaptation: remove dracut
+- patterns: Remove obsolete weston-ivi*
+- ivi-ux-weston.post: just append group, don't override
+- patterns: ivi-ux-ico: add TLM session/weston configs
+- Postpone Tizen middleware services for fastboot
+
 * Wed Dec 03 2014 Mikko Ylinen <mikko.ylinen@intel.com> accepted/tizen/ivi/20141119.005434-2-g0f9be56
 - packaging: update changelog and Version
 - add 'app' user to vconf_bt group
