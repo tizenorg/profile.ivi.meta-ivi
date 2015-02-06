@@ -9,6 +9,7 @@ Repos:
     - ivi-arm
 ExtraPackages:
     - ivi-repos
+    - kernel-ivi-arm-rcar-m2
     - renesas_rcar-board-config
 PostScripts:
     - ivi-adaptation-renesas-m2
