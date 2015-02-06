@@ -7,8 +7,9 @@ Part: ivi-mbr
 FileName: ivi-mbr-renesas-m2
 Repos:
     - ivi-arm
+Groups:
+    - IVI Adaptation Renesas M2
 ExtraPackages:
     - ivi-repos
-    - renesas_rcar-board-config
 PostScripts:
     - ivi-adaptation-renesas-m2
