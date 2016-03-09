@@ -1,0 +1,17 @@
+Summary: IVI Connectivity Framework Target
+Description: IVI Connectivity Framework Target
+Name: ivi-connectivity-framework-target
+Packages:
+- capi-network-mtp
+- capi-network-wifi
+- libmtp
+- libug-setting-wifidirect-efl
+- mobileap-agent
+- mtp-initiator
+- mtp-responder
+- net.wifi-qs
+- net-config
+- org.tizen.wifi-direct-popup
+- wifi-direct-manager
+- wifi-direct-plugin-wpasupplicant
+- wifi-efl-ug

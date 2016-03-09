@@ -1,0 +1,8 @@
+Summary: IVI Connectivity Framework
+Description: IVI Connectivity Framework
+Name: ivi-connectivity-framework
+Packages:
+- capi-network-nfc
+- capi-network-smartcard
+- capi-network-tethering
+- libnl2

@@ -1,0 +1,7 @@
+Summary: IVI Boot Odroid U3
+Description: IVI Boot Odroid U3
+Name: ivi-boot-odroid-u3
+Packages:
+- arm-odroidu3-linux-kernel
+- arm-odroidu3-linux-kernel-modules
+- u-boot-xu3

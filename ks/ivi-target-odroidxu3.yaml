@@ -1,0 +1,17 @@
+Name: ivi-target-odroidxu3
+Architecture: armv7l
+Schedule: "*"
+Active: True
+Platform: ARM
+Part: ivi-mbr
+Mic2Options: -f loop --pack-to=@NAME@.tar.gz
+FileName: ivi-target-odroidxu3
+Attachment:
+    - /boot/kernel/dzImage
+Repos:
+    - ivi-arm
+    - base_arm
+Groups:
+    - IVI Adaptation XU3
+PostScripts: []
+ExtraPackages: []

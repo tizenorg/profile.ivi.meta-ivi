@@ -1,0 +1,7 @@
+Summary: IVI Dali
+Description: IVI Dali
+Name: ivi-dali
+Packages:
+- dali
+- dali-adaptor
+- dali-toolkit

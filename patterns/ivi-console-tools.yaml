@@ -1,0 +1,13 @@
+Summary: IVI Console Tools
+Description: IVI Console Tools
+Name: ivi-console-tools
+Packages:
+- tar
+- grep
+- gzip
+- zip
+- unzip
+- xz
+- curl
+- findutils
+- iptables

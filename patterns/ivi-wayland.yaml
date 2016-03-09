@@ -1,0 +1,6 @@
+Summary: IVI Wayland
+Description: IVI Wayland
+Name: ivi-wayland
+Packages:
+- libwayland-tbm-client
+- libwayland-tbm-server

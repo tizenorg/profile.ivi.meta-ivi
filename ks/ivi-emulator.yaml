@@ -1,0 +1,17 @@
+Name: ivi-emulator
+Architecture: ia32
+Schedule: "*"
+Active: True
+Platform: Emulator
+Part: ivi-emul
+Mic2Options: -f loop --pack-to=@NAME@.tar.gz
+FileName: ivi-emulator
+Attachment:
+    - /boot/kernel/dzImage
+Repos:
+    - ivi-emulator
+    - base_emulator32
+Groups:
+    - IVI Adaptation Emulator
+PostScripts: []
+ExtraPackages: []

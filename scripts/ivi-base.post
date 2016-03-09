@@ -1,8 +1,8 @@
 #!/bin/sh
 echo "#################### ivi-base.post ####################"
 
-# create appfw dirs for users 'app' and 'guest'
-for user in app guest; do
-	generic_base_fix_user_homedir $user
-done
+######### multiuser mode: create additional users and fix their homedirs
 
+if ! generic_base_user_exists owner; then
+	gum-utils --offline --add-user --username=owner --usertype=admin --usecret=tizen
+fi

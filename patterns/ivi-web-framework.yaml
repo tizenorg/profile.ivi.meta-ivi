@@ -1,0 +1,10 @@
+Summary: IVI Web Framework
+Description: IVI Web Framework
+Name: ivi-web-framework
+Packages:
+- chromium-efl
+- webapi-plugins
+- browser-provider
+- crosswalk-tizen
+- cordova-api
+- jsnative

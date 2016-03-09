@@ -1,9 +1,0 @@
-Description: IVI Adaptation Renesas M2
-Name: ivi-adaptation-renesas-m2
-Packages:
- - kernel-ivi-arm-rcar-m2
- - renesas_rcar-board-config
- - renesas_rcar-libEGL
- - renesas_rcar-libgbm
- - wayland-kms
-Summary: IVI Adaptation Renesas M2
