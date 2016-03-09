@@ -1,0 +1,14 @@
+Summary: IVI Bluetooth
+Description: IVI Bluetooth
+Name: ivi-bluetooth
+Packages:
+- bluez
+- libbluetooth
+- obexd
+- org.tizen.bt-syspopup
+- bluetooth-share
+- bluetooth-tools
+- bluetooth-frwk-core
+- bluetooth-frwk-service
+- bluetooth-agent
+- ug-bluetooth-efl

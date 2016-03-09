@@ -1,5 +1,13 @@
 Summary: IVI Base
 Description: IVI Base
 Name: ivi-base
-Packages: []
-
+Packages:
+- capi-base-utils
+- deviced
+- deviced-tools
+- dlogutil
+- libstorage
+- lzo
+- sys-string
+- tizen-locale
+- tlm-config-common-singleseat

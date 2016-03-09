@@ -1,0 +1,7 @@
+Summary: IVI Connectivity Framework Emualtor
+Description: IVI Connectivity Framework Emulator
+Name: ivi-connectivity-framework-emulator
+Packages:
+- mobileap-agent
+- net-config
+- nfc-client-lib-neard

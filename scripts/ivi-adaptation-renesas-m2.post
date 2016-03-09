@@ -1,5 +1,0 @@
-#!/bin/sh
-echo "#################### ivi-adaptation-renesas-m2.post ####################"
-
-# Force sw compositor
-sed -i "/\$WESTON_LAUNCH/s/\$/ --use-pixman/" /etc/session.d/genivi-session-singleseat

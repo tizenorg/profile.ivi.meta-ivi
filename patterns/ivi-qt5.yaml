@@ -1,0 +1,5 @@
+Summary: IVI Qt5
+Description: IVI Qt5
+Name: ivi-qt5
+Packages:
+- qt-tizen-demo

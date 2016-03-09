@@ -1,10 +1,5 @@
+Summary: IVI Adaptation
 Description: IVI Adaptation
 Name: ivi-adaptation
 Packages:
- - linux-firmware-ivi
- - mesa
- - model-config-ivi
- - udev-rules-ivi
- - hwdata-ivi
- - tizen-middleware-units
-Summary: IVI Adaptation
+- meta-generic-adaptation
