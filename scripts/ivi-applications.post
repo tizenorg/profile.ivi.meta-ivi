@@ -1,7 +1,0 @@
-#!/bin/sh
-echo "#################### ivi-applications.post ####################"
-
-# fix users homedirs
-for user in app guest; do
-	generic_desktop_applications_fix_userhome $user
-done

@@ -1,0 +1,12 @@
+Summary: IVI Enlightenment
+Description: IVI Enlightenment
+Name: ivi-enlightenment
+Packages:
+- enlightenment
+- e-tizen-data
+- e-mod-tizen-wm-policy
+- e-mod-tizen-devicemgr
+- e-mod-tizen-keyrouter
+- e-mod-tizen-eom
+- e-mod-tizen-processmgr
+- e-mod-tizen-wl-textinput

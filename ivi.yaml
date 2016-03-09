@@ -2,118 +2,67 @@ Default:
     Baseline: tizen-3.0
     Active: True
     Mic2Options: -f raw --fstab=uuid --copy-kernel --compress-disk-image=bz2 --generate-bmap
-    Architecture: ia32
     Part: ivi-mbr
-    Language: en_US.utf8
+    Language: en_US.UTF-8
     Keyboard: us
-    Timezone: America/Los_Angeles
+    Timezone: Asia/Seoul
     RootPass: tizen
     DefaultUser: guest
     DefaultUserPass: tizen
     BootLoader: True
-    BootloaderAppend: "rootwait rootfstype=ext4 quiet"
-    BootloaderTimeout: 0
-    BootloaderOptions: "--ptable=gpt"
+    BootloaderAppend: "rw vga=current splash rootwait rootfstype=ext4 plymouth.enable=0"
+    BootloaderTimeout: 3
+    BootloaderOptions: '--ptable=gpt --menus="install:Wipe and Install:systemd.unit=system-installer.service:test"'
     StartX: False
     Desktop: None
     SaveRepos: False
     UserGroups: "audio,video"
     Groups:
         - IVI Adaptation
-        - Generic Base
         - IVI Base
-        - Generic Packaging
+        - IVI Bluetooth
+        - IVI Connectivity Framework
+        - IVI Console Tools
+        - IVI Dali
+        - IVI EFL
+        - IVI Enlightenment
+        - IVI Input Framework
+        - IVI Middleware
+        - IVI Qt5
+        - IVI Telephony
+        - IVI Wayland
+        - IVI Wayland Temp
+        - IVI Web Framework
     PostScripts:
-        - ivi-adaptation
-        - ivi-startup-modifications
         - generic-base
         - ivi-base
-        - generic-packaging
+        - generic-console-tools
+        - ivi-packaging
+        - ivi-adaptation
+        - ivi-middleware
+        - generic-multimedia
+        - generic-desktop-applications
+        - generic-crosswalk
+        - ivi-web-framework
+        - ivi-bluetooth
+        - ivi-mbr-3parts
+        - ivi-user
     NoChrootScripts:
         - buildname  
 
-Wayland-i586:
-    Part: ivi-mbr
-    UserGroups: "audio,video,weston-launch"
+Emulator:
+    Part: ivi-emul
     Groups:
-        - Generic Middleware
-        - Generic Wayland
-        - Generic Crosswalk
-        - Generic Multimedia
-        - Generic Multimedia Intel
-        - Generic Bluetooth
-        - Generic Console Tools
-        - Generic Desktop Applications
-        - IVI UX Weston
-        - IVI Middleware
-        - IVI Middleware Intel
-        - IVI Applications
+        - IVI Connectivity Framework Emualtor
+        - IVI Multimedia Emulator
     PostScripts:
-        - generic-middleware
-        - generic-wayland
-        - generic-multimedia
-        - generic-multimedia-intel
-        - generic-bluetooth
-        - generic-console-tools
-        - generic-desktop-applications
-        - ivi-ux-weston
-        - ivi-applications
-    Repos:
-        - ivi
+    Repos: []
 
-
-Wayland-x86_64:
+ARM:
     Part: ivi-mbr
-    UserGroups: "audio,video,weston-launch"
     Groups:
-        - Generic Middleware
-        - Generic Wayland
-        - Generic Crosswalk
-        - Generic Multimedia
-        - Generic Multimedia Intel
-        - Generic Bluetooth
-        - Generic Console Tools
-        - Generic Desktop Applications
-        - IVI UX Weston
-        - IVI Middleware
-        - IVI Middleware Intel
-        - IVI Applications
+        - IVI Connectivity Framework Target
+        - IVI Multimedia Target
     PostScripts:
-        - generic-middleware
-        - generic-wayland
-        - generic-multimedia
-        - generic-multimedia-intel
-        - generic-bluetooth
-        - generic-console-tools
-        - generic-desktop-applications
-        - ivi-ux-weston
-        - ivi-applications
-    Repos:
-        - ivi64
+    Repos: []
 
-Wayland-ARM:
-    Part: ivi-mbr
-    UserGroups: "audio,video,weston-launch"
-    Groups:
-        - Generic Middleware
-        - Generic Wayland
-        - Generic Crosswalk
-        - Generic Multimedia
-        - Generic Bluetooth
-        - Generic Console Tools
-        - Generic Desktop Applications
-        - IVI UX Weston
-        - IVI Middleware
-        - IVI Applications
-    PostScripts:
-        - generic-middleware
-        - generic-wayland
-        - generic-crosswalk
-        - generic-multimedia
-        - generic-bluetooth
-        - generic-console-tools
-        - generic-desktop-applications
-        - ivi-ux-weston
-        - ivi-applications
-    Repos:
-        - ivi-arm

@@ -1,0 +1,13 @@
+Summary: IVI Telephony
+Description: IVI Telephony
+Name: ivi-telephony
+Packages:
+- tel-plugin-database
+- tel-plugin-dbus_tapi
+- tel-plugin-indicator
+- tel-plugin-nitz
+- tel-plugin-packetservice
+- tel-plugin-vconf
+- call-manager
+- libcall-manager
+- libtapi

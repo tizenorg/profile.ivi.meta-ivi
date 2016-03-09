@@ -1,13 +1,16 @@
 Repositories:
-    -   Name: ivi
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/atom/packages/
-    -   Name: ivi-debug
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/atom/debug/
-    -   Name: ivi64
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/atom64/packages/
-    -   Name: ivi64-debug
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/atom64/debug/
-    -   Name: emul
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/emulator/packages/
+    -   Name: ivi-emulator
+        Url:  http://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/emulator/packages/
+        Options: --ssl_verify=no
+
     -   Name: ivi-arm
-        Url:  https://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/arm/packages/
+        Url:  http://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/arm/packages/
+        Options: --ssl_verify=no
+
+    -   Name: base_emulator32
+        Url:  http://download.tizen.org/snapshots/tizen/base/latest/repos/emulator32/packages/
+        Options: --ssl_verify=no
+
+    -   Name: base_arm
+        Url:  http://download.tizen.org/snapshots/tizen/base/latest/repos/arm/packages/
+        Options: --ssl_verify=no

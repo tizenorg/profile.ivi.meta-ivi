@@ -1,4 +1,0 @@
-#!/bin/sh
-echo "#################### ivi-ux-weston.post ####################"
-
-usermod -A weston-launch app
