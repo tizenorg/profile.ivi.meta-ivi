@@ -17,3 +17,4 @@ Packages:
 - tel-plugin-atmodem
 - tel-plugin-vmodem
 - capi-network-mtp
+- mmfw-sysconf-simulator

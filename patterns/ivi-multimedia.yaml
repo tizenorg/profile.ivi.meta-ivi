@@ -1,6 +1,6 @@
-Summary: IVI Multimedia Target
-Description: IVI Multimedia Target
-Name: ivi-multimedia-target
+Summary: IVI Multimedia
+Description: IVI Multimedia
+Name: ivi-multimedia
 Packages:
 - libmm-camcorder
 - libmm-session

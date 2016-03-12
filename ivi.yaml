@@ -18,6 +18,9 @@ Default:
     SaveRepos: False
     UserGroups: "audio,video"
     Groups:
+        - Generic Base
+        - Generic Desktop Applications
+        - Generic Multimedia
         - IVI Adaptation
         - IVI Base
         - IVI Bluetooth
@@ -28,6 +31,7 @@ Default:
         - IVI Enlightenment
         - IVI Input Framework
         - IVI Middleware
+        - IVI Multimedia
         - IVI Qt5
         - IVI Telephony
         - IVI Wayland
@@ -54,7 +58,6 @@ Emulator:
     Part: ivi-emul
     Groups:
         - IVI Connectivity Framework Emualtor
-        - IVI Multimedia Emulator
     PostScripts:
     Repos: []
 
@@ -62,7 +65,6 @@ ARM:
     Part: ivi-mbr
     Groups:
         - IVI Connectivity Framework Target
-        - IVI Multimedia Target
     PostScripts:
     Repos: []
 
