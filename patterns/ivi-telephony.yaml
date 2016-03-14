@@ -8,6 +8,6 @@ Packages:
 - tel-plugin-nitz
 - tel-plugin-packetservice
 - tel-plugin-vconf
-#- call-manager
-#- libcall-manager
+- call-manager
+- libcall-manager
 - libtapi

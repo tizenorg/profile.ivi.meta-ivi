@@ -7,6 +7,6 @@ Packages:
 - system-plugin-u3
 - mmfw-sysconf-target-u3
 - libomxil-e54xx
-#- model-config-xu3
+- model-config-xu3
 - libtdm-exynos
 - alsa-ucm-data-max98090

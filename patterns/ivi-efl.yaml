@@ -2,7 +2,7 @@ Summary: IVI EFL
 Description: IVI EFL
 Name: ivi-efl
 Packages:
-#- efl-misc
+- efl-misc
 - capi-ui-efl-util
 - efl-extension
 - elementary-tools
@@ -16,5 +16,5 @@ Packages:
 - libatspi0
 - typelib-1_0-Atspi-2_0
 - libatk-bridge-2_0-0
-#- efl-modules
-#- efl-config
+- efl-modules
+- efl-config
