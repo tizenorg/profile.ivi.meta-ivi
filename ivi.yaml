@@ -35,7 +35,6 @@ Default:
         - IVI Qt5
         - IVI Telephony
         - IVI Wayland
-        - IVI Wayland Temp
         - IVI Web Framework
     PostScripts:
         - generic-base

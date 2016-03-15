@@ -100,3 +100,10 @@ Packages:
 - auth-fw
 - libauth-fw-client
 - libauth-fw-client-admin
+- capi-appfw-package-manager
+- capi-system-device
+- libboost_program_options1_57_0
+- libboost_regex1_57_0
+- libboost_date_time1_57_0
+- libjson-glib
+- ui-gadget-1

@@ -1,9 +1,0 @@
-Summary: IVI Wayland Temp
-Description: IVI Wayland Temp
-Name: ivi-wayland-temp
-Packages:
-- capi-appfw-package-manager
-- capi-system-device
-- libboost_program_options1_57_0
-- libjson-glib
-- ui-gadget-1
