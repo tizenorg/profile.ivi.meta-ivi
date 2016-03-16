@@ -5,7 +5,7 @@ Packages:
 - capi-network-mtp
 - capi-network-wifi
 - libmtp
-- libug-setting-wifidirect-efl
+- ug-setting-wifidirect-efl
 - mobileap-agent
 - mtp-initiator
 - mtp-responder
