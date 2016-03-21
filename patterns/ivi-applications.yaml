@@ -1,0 +1,7 @@
+Summary: IVI Applications
+Description: IVI Applications
+Name: ivi-applications
+Packages:
+- app-installers
+- tpk-backend
+- wgt-backend
