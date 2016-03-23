@@ -4,4 +4,3 @@ Name: ivi-connectivity-framework-emulator
 Packages:
 - mobileap-agent
 - net-config
-- nfc-client-lib-neard
