@@ -107,3 +107,6 @@ Packages:
 - libboost_date_time1_57_0
 - libjson-glib
 - ui-gadget-1
+- device-policy-manager
+- dpm-pam-zone
+- libdpm
