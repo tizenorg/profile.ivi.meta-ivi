@@ -8,6 +8,5 @@ Packages:
 - dlogutil
 - libstorage
 - lzo
-- sys-string
 - tizen-locale
 - tlm-config-common-singleseat
