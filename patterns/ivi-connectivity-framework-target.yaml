@@ -9,7 +9,6 @@ Packages:
 - mobileap-agent
 - mtp-initiator
 - mtp-responder
-- net.wifi-qs
 - net-config
 - org.tizen.wifi-direct-popup
 - wifi-direct-manager
