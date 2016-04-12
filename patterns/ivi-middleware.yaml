@@ -106,3 +106,4 @@ Packages:
 - libjson-glib
 - ui-gadget-1
 - capi-system-runtime-info
+- app2sd
