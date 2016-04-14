@@ -107,3 +107,6 @@ Packages:
 - ui-gadget-1
 - capi-system-runtime-info
 - app2sd
+- device-policy-manager
+- dpm-pam-zone
+- libdpm

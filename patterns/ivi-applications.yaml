@@ -7,3 +7,6 @@ Packages:
 - wgt-backend
 - smartdevicelink
 - org.tizen.homescreen
+- org.tizen.ode
+- org.tizen.dpm-syspopup
+- org.tizen.zone-setup-wizard
