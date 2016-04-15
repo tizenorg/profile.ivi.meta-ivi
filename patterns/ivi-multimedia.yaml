@@ -59,3 +59,4 @@ Packages:
 - libmm-streamrecorder
 - mmsvc-camera
 - mmsvc-recorder
+- libmm-evas-renderer
