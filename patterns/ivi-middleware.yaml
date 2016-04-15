@@ -76,8 +76,6 @@ Packages:
 - libaccount-service
 - account-manager
 - account-parser
-- sync-service
-- libcore-sync-client
 - oauth2
 - liboauth
 - nghttp2
