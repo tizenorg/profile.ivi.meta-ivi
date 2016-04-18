@@ -6,6 +6,7 @@ Packages:
 - capi-ui-efl-util
 - efl-extension
 - elementary-tools
+- elementary-locale
 - default-fonts-sdk
 - default-fonts-fc-sdk
 - atk-locale
