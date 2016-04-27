@@ -10,3 +10,4 @@ Packages:
 - model-config-xu3
 - libtdm-exynos
 - alsa-ucm-data-max98090
+- org.tizen.dpm-toolkit
