@@ -9,7 +9,6 @@ Packages:
 - elementary-locale
 - default-fonts-sdk
 - default-fonts-fc-sdk
-- atk-locale
 - libatk
 - typelib-Atk
 #- efl-theme-tizen-ivi
