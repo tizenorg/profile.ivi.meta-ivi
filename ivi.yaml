@@ -51,6 +51,7 @@ Default:
         - ivi-bluetooth
         - ivi-mbr-3parts
         - ivi-user
+        - ivi-license
     NoChrootScripts:
         - buildname  
 
