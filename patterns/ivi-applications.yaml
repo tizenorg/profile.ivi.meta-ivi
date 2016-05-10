@@ -11,3 +11,4 @@ Packages:
 - org.tizen.dpm-syspopup
 - org.tizen.zone-setup-wizard
 - org.tizen.bootsplash
+- org.tizen.screen-reader
