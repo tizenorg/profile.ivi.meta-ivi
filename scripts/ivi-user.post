@@ -1,9 +1,9 @@
 #!/bin/sh
 echo "############### ivi-user.post ################"
 
-for user in alice bob carol guest; do
- if ! generic_base_user_exists $user; then
-  gum-utils --offline --add-user --username="$user" --usertype=normal --usecret=tizen
- fi
-done
+#for user in alice bob carol guest; do
+# if ! generic_base_user_exists $user; then
+#  gum-utils --offline --add-user --username="$user" --usertype=normal --usecret=tizen
+# fi
+#done
 
