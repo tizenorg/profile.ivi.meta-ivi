@@ -10,3 +10,5 @@ Packages:
 - lzo
 - tizen-locale
 - tlm-config-common-singleseat
+- fsck-msdos
+- newfs-msdos
