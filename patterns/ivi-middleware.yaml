@@ -94,9 +94,9 @@ Packages:
 - libauth-fw-client-admin
 - capi-appfw-package-manager
 - capi-system-device
-- libboost_program_options1_57_0
-- libboost_regex1_57_0
-- libboost_date_time1_57_0
+- boost-program-options
+- boost-regex
+- boost-date-time
 - libjson-glib
 - ui-gadget-1
 - capi-system-runtime-info
