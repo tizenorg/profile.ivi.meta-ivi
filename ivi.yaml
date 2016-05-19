@@ -52,6 +52,7 @@ Default:
         - ivi-mbr-3parts
         - ivi-user
         - ivi-license
+		- generic-security
     NoChrootScripts:
         - buildname  
 
