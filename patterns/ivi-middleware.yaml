@@ -45,6 +45,7 @@ Packages:
 - capi-system-media-key
 - libeom
 - ttrace
+- ttrace-extension
 - stt
 - motion
 - context
