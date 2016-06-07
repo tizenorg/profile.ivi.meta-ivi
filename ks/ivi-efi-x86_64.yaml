@@ -1,0 +1,21 @@
+Name: ivi-efi-x86_64
+Architecture: x86_64
+Schedule: "*"
+Active: True
+Platform: Default
+InstallerFrameworkPlugins:
+    - bootloader
+    - fstab
+Part: ivi-efi
+FileName: ivi-efi-x86_64
+Kernel: kernel-profile-ivi
+Repos:
+    - ivi-x86_64
+    - base_x86_64
+Groups:
+    - Generic Setup Boot
+    - IVI Adaptation Bay Trail
+PostScripts:
+    - generic-setup-boot
+ExtraPackages:
+    - linux-firmware-ivi

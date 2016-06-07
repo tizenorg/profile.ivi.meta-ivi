@@ -7,10 +7,18 @@ Repositories:
         Url:  http://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/arm/packages/
         Options: --ssl_verify=no
 
+    -   Name: ivi-x86_64
+        Url:  http://download.tizen.org/snapshots/tizen/ivi/@BUILD_ID@/repos/x86_64/packages/
+        Options: --ssl_verify=no
+
     -   Name: base_emulator32
         Url:  http://download.tizen.org/snapshots/tizen/base/latest/repos/emulator32/packages/
         Options: --ssl_verify=no
 
     -   Name: base_arm
         Url:  http://download.tizen.org/snapshots/tizen/base/latest/repos/arm/packages/
+        Options: --ssl_verify=no
+
+    -   Name: base_x86_64
+        Url:  http://download.tizen.org/snapshots/tizen/base/latest/repos/x86_64/packages/
         Options: --ssl_verify=no

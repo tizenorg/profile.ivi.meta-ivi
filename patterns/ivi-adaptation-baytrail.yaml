@@ -1,0 +1,9 @@
+Summary: IVI Adaptation Bay Trail
+Description: IVI Adaptation Bay Trail
+Name: ivi-adaptation-baytrail
+Packages:
+- mesa
+- libtdm-drm
+- libtbm-dumb
+- system-plugin
+- model-config-baytrail
