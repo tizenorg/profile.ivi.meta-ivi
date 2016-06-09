@@ -8,3 +8,4 @@ Packages:
 - crosswalk-tizen
 - cordova-api
 - libwebsockets
+- v8
