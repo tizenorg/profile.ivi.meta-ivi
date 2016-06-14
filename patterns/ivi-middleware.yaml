@@ -105,3 +105,9 @@ Packages:
 - app2sd
 - device-policy-manager
 - libdpm
+- askuser
+- askuser-notification
+- askuser-plugins
+- askuser-test
+- libaskuser-common
+- libcsr-framework-client
