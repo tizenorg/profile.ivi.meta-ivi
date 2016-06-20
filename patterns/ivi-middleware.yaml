@@ -88,7 +88,6 @@ Packages:
 - amd
 - libhyphen
 - capi-vpnsvc
-- vpnsvc-daemon
 - argos_watchdog
 - fido-client
 - auth-fw
